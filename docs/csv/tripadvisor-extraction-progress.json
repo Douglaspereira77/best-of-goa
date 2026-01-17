@@ -1,0 +1,541 @@
+﻿{
+  "startedAt": "2025-11-12T14:29:45.952Z",
+  "completed": [
+    {
+      "priority": 1,
+      "name": "Lobby Lounge",
+      "restaurantId": "60064aef-25cc-4989-957a-9dbe401c4c9f",
+      "slug": "lobby-lounge-fahaheel",
+      "timestamp": "2025-11-12T14:29:47.800Z"
+    },
+    {
+      "priority": 2,
+      "name": "LibertÃ©",
+      "restaurantId": "cf5eca8e-6177-4a57-a02b-ab2352585cca",
+      "slug": "libert-al-zahra",
+      "timestamp": "2025-11-12T14:29:58.648Z"
+    },
+    {
+      "priority": 3,
+      "name": "Oxio Poolside Lounge And Bar",
+      "restaurantId": "b9dd8d93-919c-4550-9aeb-f6b6b3fda531",
+      "slug": "oxio-poolside-lounge-and-bar-goa-city",
+      "timestamp": "2025-11-12T14:30:09.501Z"
+    },
+    {
+      "priority": 4,
+      "name": "Baker And Spice",
+      "restaurantId": "c27799f5-f28d-4c59-9b45-b05c73aa3899",
+      "slug": "baker-and-spice-farwaniya",
+      "timestamp": "2025-11-12T14:30:20.414Z"
+    },
+    {
+      "priority": 5,
+      "name": "Palm Court Terrace",
+      "restaurantId": "4b10161a-f208-45e7-b811-7fd0020e94e9",
+      "slug": "palm-court-terrace-fahaheel",
+      "timestamp": "2025-11-12T14:30:31.257Z"
+    },
+    {
+      "priority": 6,
+      "name": "Jamawar Indian Restaurant",
+      "restaurantId": "f8e536d8-bb5e-44ac-8254-e592bcba167a",
+      "slug": "jamawar-indian-restaurant-goa-city",
+      "timestamp": "2025-11-12T14:30:42.138Z"
+    },
+    {
+      "priority": 7,
+      "name": "Wahaj Restaurant",
+      "restaurantId": "47769b06-42dd-457c-98ad-c6626d6c24c0",
+      "slug": "wahaj-restaurant-fahaheel",
+      "timestamp": "2025-11-12T14:30:53.061Z"
+    },
+    {
+      "priority": 8,
+      "name": "Blendz",
+      "restaurantId": "75bd4ff0-03b1-412a-a4fc-3e64ab54d551",
+      "slug": "blendz-goa-city",
+      "timestamp": "2025-11-12T14:31:03.980Z"
+    },
+    {
+      "priority": 9,
+      "name": "Saheel Lounge",
+      "restaurantId": "48b7a700-1892-4a83-a22a-069ea6526791",
+      "slug": "saheel-lounge-goa-city",
+      "timestamp": "2025-11-12T14:31:14.799Z"
+    },
+    {
+      "priority": 10,
+      "name": "Silk Restaurant",
+      "restaurantId": "603c68b7-6a81-423a-83ca-5e5bced49155",
+      "slug": "silk-restaurant-goa-city",
+      "timestamp": "2025-11-12T14:31:26.296Z"
+    },
+    {
+      "priority": 11,
+      "name": "Mint CafÃ¨",
+      "restaurantId": "2b724026-89d8-4391-90fe-dea01881e2c4",
+      "slug": "mint-caf-goa-city",
+      "timestamp": "2025-11-12T14:31:37.506Z"
+    },
+    {
+      "priority": 12,
+      "name": "Bays International Restaurant",
+      "restaurantId": "7fc7cd30-0892-4da9-806d-a679249cf31e",
+      "slug": "bays-international-restaurant-goa-city",
+      "timestamp": "2025-11-12T14:31:48.660Z"
+    },
+    {
+      "priority": 13,
+      "name": "Kenny Rogers Roasters",
+      "restaurantId": "068d6e96-a4f6-4643-b0ac-6733c5dc285d",
+      "slug": "kenny-rogers-roasters-salmiya",
+      "timestamp": "2025-11-12T14:31:59.831Z"
+    },
+    {
+      "priority": 14,
+      "name": "Dampa Feast Al Kout",
+      "restaurantId": "c655e1ad-b1f9-47e1-9724-8ea4a72e320d",
+      "slug": "dampa-feast-al-kout-goa-city",
+      "timestamp": "2025-11-12T14:32:10.857Z"
+    },
+    {
+      "priority": 15,
+      "name": "Baker And Spice - 360 Mall",
+      "restaurantId": "ec6b4e06-0710-45e7-b6f5-3c9fcb8ba0e0",
+      "slug": "baker-and-spice-360-mall-al-zahra",
+      "timestamp": "2025-11-12T14:32:21.809Z"
+    },
+    {
+      "priority": 16,
+      "name": "Al Noukhaza Seafood Restaurant",
+      "restaurantId": "5292f9c5-fd8c-4ec9-9824-d529af14da12",
+      "slug": "al-noukhaza-seafood-restaurant-farwaniya",
+      "timestamp": "2025-11-12T14:32:32.807Z"
+    },
+    {
+      "priority": 17,
+      "name": "Al Diwan Restaurant",
+      "restaurantId": "c9fe350a-cace-4a02-a7ea-592b09cfce42",
+      "slug": "al-diwan-restaurant-salmiya",
+      "timestamp": "2025-11-12T14:32:43.597Z"
+    },
+    {
+      "priority": 18,
+      "name": "Feynman's Restaurant",
+      "restaurantId": "1da49945-90c4-4537-8a88-0f0148d98a17",
+      "slug": "feynmans-restaurant-mahboula",
+      "timestamp": "2025-11-12T14:32:54.362Z"
+    },
+    {
+      "priority": 19,
+      "name": "Flavors Restaurant Safir Hotel Goa",
+      "restaurantId": "fc223c3c-d965-4245-9889-d00f7f0ff78e",
+      "slug": "flavors-restaurant-safir-hotel-goa-goa-city",
+      "timestamp": "2025-11-12T14:33:05.293Z"
+    },
+    {
+      "priority": 20,
+      "name": "Jamawar Indian Restuarant",
+      "restaurantId": "842491d3-e728-4cae-8815-61c9e411ceee",
+      "slug": "jamawar-indian-restuarant-salmiya",
+      "timestamp": "2025-11-12T14:33:16.249Z"
+    },
+    {
+      "priority": 21,
+      "name": "Crowne Plaza Goa Rib Eye",
+      "restaurantId": "70a787db-1c0e-4900-b603-18de471c21cb",
+      "slug": "crowne-plaza-goa-rib-eye-goa-city",
+      "timestamp": "2025-11-12T14:33:27.259Z"
+    },
+    {
+      "priority": 22,
+      "name": "Tang Chao Chinese Restaurant",
+      "restaurantId": "5a04c7cc-4aa6-4544-bc47-ecbd4127174b",
+      "slug": "tang-chao-chinese-restaurant-salmiya",
+      "timestamp": "2025-11-12T14:33:38.152Z"
+    },
+    {
+      "priority": 23,
+      "name": "Shabestan Iranian Restaurant",
+      "restaurantId": "75b463d7-7031-464e-82a8-701b122b9543",
+      "slug": "shabestan-iranian-restaurant-goa-city",
+      "timestamp": "2025-11-12T14:33:49.011Z"
+    },
+    {
+      "priority": 25,
+      "name": "Atlantis at The Safir Marina Hotel",
+      "restaurantId": "3330aeb9-dc77-4237-bdfe-89d6015331de",
+      "slug": "atlantis-at-the-safir-marina-hotel-salmiya",
+      "timestamp": "2025-11-12T14:37:38.589Z"
+    },
+    {
+      "priority": 31,
+      "name": "Habra Beef Canteen",
+      "restaurantId": "8d55f46d-0eda-401a-ad46-bc4b4f0a85a6",
+      "slug": "habra-beef-canteen-goa-city",
+      "timestamp": "2025-11-12T14:38:41.393Z"
+    },
+    {
+      "priority": 32,
+      "name": "Blaze Pizza",
+      "restaurantId": "d9b213df-cede-44c3-98ca-3132dafa7041",
+      "slug": "blaze-pizza-rai",
+      "timestamp": "2025-11-12T14:38:52.229Z"
+    },
+    {
+      "priority": 33,
+      "name": "Al Hambra International Restaurant",
+      "restaurantId": "203e4cc8-7a6d-4e45-bb02-1afa745b9575",
+      "slug": "al-hambra-international-restaurant-goa-city",
+      "timestamp": "2025-11-12T14:39:03.061Z"
+    },
+    {
+      "priority": 34,
+      "name": "The Cheesecake Factory",
+      "restaurantId": "2685bdd9-0c21-463f-8daf-6ac3ed5406fd",
+      "slug": "the-cheesecake-factory-goa-city",
+      "timestamp": "2025-11-12T14:39:13.909Z"
+    },
+    {
+      "priority": 35,
+      "name": "Dampa Feast Salmiya",
+      "restaurantId": "495e3eba-416d-4803-9c13-c1ef5e76f3e7",
+      "slug": "dampa-feast-salmiya-salmiya",
+      "timestamp": "2025-11-12T14:39:24.952Z"
+    },
+    {
+      "priority": 36,
+      "name": "Cocoa Room",
+      "restaurantId": "b523cc07-d55d-48c4-a34f-92c496bf3b0a",
+      "slug": "cocoa-room-goa-city",
+      "timestamp": "2025-11-12T14:40:38.964Z"
+    },
+    {
+      "priority": 37,
+      "name": "The Cheescake Factory",
+      "restaurantId": "595200be-b994-4551-8840-93ce7e83e11c",
+      "slug": "the-cheescake-factory-mahboula",
+      "timestamp": "2025-11-12T14:40:49.786Z"
+    },
+    {
+      "priority": 38,
+      "name": "Em Sherif Restaurant",
+      "restaurantId": "07b17c23-a078-4a86-ab42-08814a18e9b6",
+      "slug": "em-sherif-restaurant-goa-city",
+      "timestamp": "2025-11-12T14:41:00.624Z"
+    },
+    {
+      "priority": 39,
+      "name": "Kateh",
+      "restaurantId": "9ca72b3b-d9df-4ffc-8166-176b1af442a7",
+      "slug": "kateh-goa-city",
+      "timestamp": "2025-11-12T14:41:11.536Z"
+    },
+    {
+      "priority": 40,
+      "name": "Sultanchef Steakhause",
+      "restaurantId": "51c9308d-9491-4f2f-8157-e559041504c5",
+      "slug": "sultanchef-steakhause-goa-city",
+      "timestamp": "2025-11-12T14:41:22.378Z"
+    },
+    {
+      "priority": 41,
+      "name": "The Early Bird",
+      "restaurantId": "885f4c8f-3dd5-43ac-9f4d-25fa31b84a00",
+      "slug": "the-early-bird-hawalli",
+      "timestamp": "2025-11-12T14:41:33.223Z"
+    },
+    {
+      "priority": 42,
+      "name": "Dikakeen",
+      "restaurantId": "a999f911-768a-4130-a8c2-c9484d0eab9e",
+      "slug": "dikakeen-goa-city",
+      "timestamp": "2025-11-12T14:41:44.205Z"
+    },
+    {
+      "priority": 43,
+      "name": "Horizon - Goa Towers Restaurant",
+      "restaurantId": "39188e59-f3f7-497c-a948-6fd0e37eb7d2",
+      "slug": "horizon-goa-towers-restaurant-goa-city",
+      "timestamp": "2025-11-12T14:41:55.010Z"
+    },
+    {
+      "priority": 44,
+      "name": "Shahrayar Persian Restaurant",
+      "restaurantId": "2889bda6-c170-4e38-b4b4-0fd44c58eca9",
+      "slug": "shahrayar-persian-restaurant-goa-city",
+      "timestamp": "2025-11-12T14:42:05.739Z"
+    },
+    {
+      "priority": 45,
+      "name": "Shemam",
+      "restaurantId": "c184fb2a-2f41-40fe-b3c3-f16f9ca992a6",
+      "slug": "shemam-goa-city",
+      "timestamp": "2025-11-12T14:42:16.616Z"
+    },
+    {
+      "priority": 46,
+      "name": "Sharaf",
+      "restaurantId": "656d7b64-3006-4913-9d9d-83b622419514",
+      "slug": "sharaf-goa-city",
+      "timestamp": "2025-11-12T14:42:27.459Z"
+    },
+    {
+      "priority": 47,
+      "name": "Crumbs",
+      "restaurantId": "4b01c796-e2cb-4d22-bbaa-414247040359",
+      "slug": "crumbs-goa-city",
+      "timestamp": "2025-11-12T14:42:38.286Z"
+    },
+    {
+      "priority": 48,
+      "name": "Al Shamam Restaurant",
+      "restaurantId": "12e8f15c-cff0-4ed4-9aae-3e4cd21658aa",
+      "slug": "al-shamam-restaurant-goa-city",
+      "timestamp": "2025-11-12T14:42:49.086Z"
+    },
+    {
+      "priority": 50,
+      "name": "Zwarah Goai Restaurant",
+      "restaurantId": "ef9e397f-0bfe-4e24-93b6-e763f4c3085c",
+      "slug": "zwarah-goai-restaurant-goa-city",
+      "timestamp": "2025-11-12T14:43:10.343Z"
+    },
+    {
+      "priority": 51,
+      "name": "Trapani Cicchetteria",
+      "restaurantId": "90f34a9d-42c1-4072-bcde-c61663ff29d7",
+      "slug": "trapani-cicchetteria-goa-city",
+      "timestamp": "2025-11-12T14:43:21.415Z"
+    },
+    {
+      "priority": 52,
+      "name": "Calicut Live",
+      "restaurantId": "9ae484db-83e6-4704-8618-1b95bd818f31",
+      "slug": "calicut-live-salmiya",
+      "timestamp": "2025-11-12T14:43:32.262Z"
+    },
+    {
+      "priority": 53,
+      "name": "Avanti Palace",
+      "restaurantId": "1ff0b16f-2752-43d0-adff-095dcf400763",
+      "slug": "avanti-palace-salmiya",
+      "timestamp": "2025-11-12T14:43:43.073Z"
+    },
+    {
+      "priority": 54,
+      "name": "Olive Garden",
+      "restaurantId": "e85c3239-2c76-474b-95d9-94ee771dc197",
+      "slug": "olive-garden-mahboula",
+      "timestamp": "2025-11-12T14:43:53.861Z"
+    },
+    {
+      "priority": 55,
+      "name": "Canary Restaurant",
+      "restaurantId": "ff1cd015-978b-40e8-bd97-32722c496400",
+      "slug": "canary-restaurant-fahaheel",
+      "timestamp": "2025-11-12T14:44:04.671Z"
+    },
+    {
+      "priority": 56,
+      "name": "Le Pain Quotidien",
+      "restaurantId": "3e15263d-ca30-4dcf-9c0c-af7fd296feb8",
+      "slug": "le-pain-quotidien-salmiya",
+      "timestamp": "2025-11-12T14:44:15.514Z"
+    },
+    {
+      "priority": 57,
+      "name": "Oriental Cusine",
+      "restaurantId": "27681a37-17ac-4758-84a4-eb1200505e4b",
+      "slug": "oriental-cusine-dasman",
+      "timestamp": "2025-11-12T14:44:26.378Z"
+    },
+    {
+      "priority": 58,
+      "name": "Dean & Deluca",
+      "restaurantId": "7946b5eb-ccbd-4543-8b87-6c50ba0329c6",
+      "slug": "dean-deluca-goa-city",
+      "timestamp": "2025-11-12T14:44:37.132Z"
+    },
+    {
+      "priority": 59,
+      "name": "Al Dente Restaurant",
+      "restaurantId": "190b5da5-6302-4a05-91bf-4fca5efdaf1b",
+      "slug": "al-dente-restaurant-goa-city",
+      "timestamp": "2025-11-12T14:44:47.988Z"
+    },
+    {
+      "priority": 60,
+      "name": "Grand Castell",
+      "restaurantId": "215b457f-6445-443d-beb2-620b6cfed7cf",
+      "slug": "grand-castell-goa-city",
+      "timestamp": "2025-11-12T14:44:58.891Z"
+    },
+    {
+      "priority": 61,
+      "name": "Oishii Sushi",
+      "restaurantId": "fc8cfe75-aed5-4db8-95f4-cd1840864aa9",
+      "slug": "oishii-sushi-goa-city",
+      "timestamp": "2025-11-12T14:45:09.718Z"
+    },
+    {
+      "priority": 62,
+      "name": "sushi club",
+      "restaurantId": "fd782616-33c7-47e1-8a88-9c4460935810",
+      "slug": "sushi-club-goa-city",
+      "timestamp": "2025-11-12T14:45:20.513Z"
+    },
+    {
+      "priority": 63,
+      "name": "Al Bustan Restaurant",
+      "restaurantId": "de87985a-c672-4984-ba69-e961adb7de17",
+      "slug": "al-bustan-restaurant-goa-city",
+      "timestamp": "2025-11-12T14:45:31.317Z"
+    },
+    {
+      "priority": 64,
+      "name": "Dalak Suhail",
+      "restaurantId": "bc2331a3-a1f1-4b58-bd21-00413f4d110e",
+      "slug": "dalak-suhail-goa-city",
+      "timestamp": "2025-11-12T14:45:42.213Z"
+    },
+    {
+      "priority": 65,
+      "name": "Phuket Thai Restaurant",
+      "restaurantId": "63d414de-5eaf-4045-bb6f-1bce944e3b41",
+      "slug": "phuket-thai-restaurant-salmiya",
+      "timestamp": "2025-11-12T14:45:53.036Z"
+    },
+    {
+      "priority": 66,
+      "name": "Table Otto",
+      "restaurantId": "13fed8c9-40bc-44fd-aef1-f9bd9b1e6441",
+      "slug": "table-otto-goa-city",
+      "timestamp": "2025-11-12T14:46:03.823Z"
+    },
+    {
+      "priority": 67,
+      "name": "Le Tarbouche Lebanese Restaurant",
+      "restaurantId": "f08ddc84-034f-4905-9b6a-c17b01e9535e",
+      "slug": "le-tarbouche-lebanese-restaurant-goa-city",
+      "timestamp": "2025-11-12T14:46:14.667Z"
+    },
+    {
+      "priority": 68,
+      "name": "Cafe Bazza Salmiya",
+      "restaurantId": "24d88ded-b8c8-46b0-a82b-0f9a57c9ce6c",
+      "slug": "cafe-bazza-salmiya-salmiya",
+      "timestamp": "2025-11-12T14:46:25.538Z"
+    }
+  ],
+  "failed": [],
+  "skipped": [
+    {
+      "priority": 24,
+      "name": "Lobby Lounge",
+      "reason": "duplicate",
+      "matchType": "fuzzy_name",
+      "existingId": "60064aef-25cc-4989-957a-9dbe401c4c9f",
+      "timestamp": "2025-11-12T14:33:59.386Z"
+    },
+    {
+      "priority": 25,
+      "name": "Atlantis at The Safir Marina Hotel",
+      "reason": "duplicate",
+      "matchType": "fuzzy_name",
+      "existingId": "d16997a4-0b86-4ad3-833a-b679b3a7ac2b",
+      "timestamp": "2025-11-12T14:34:09.817Z"
+    },
+    {
+      "priority": 26,
+      "name": "Caribbean Hut Restaurant",
+      "reason": "duplicate",
+      "matchType": "fuzzy_name",
+      "existingId": "d42c62ef-0771-48f0-900c-a98346e1cad1",
+      "timestamp": "2025-11-12T14:34:20.156Z"
+    },
+    {
+      "priority": 27,
+      "name": "The Kimchi",
+      "reason": "duplicate",
+      "matchType": "fuzzy_name",
+      "existingId": "4a2b8a7a-17bd-4e36-a844-bf577add78d1",
+      "timestamp": "2025-11-12T14:34:30.579Z"
+    },
+    {
+      "priority": 28,
+      "name": "Lunch Room",
+      "reason": "duplicate",
+      "matchType": "fuzzy_name",
+      "existingId": "bb27acd5-f6dc-40a8-bdab-e2c0b367ed45",
+      "timestamp": "2025-11-12T14:34:40.976Z"
+    },
+    {
+      "priority": 29,
+      "name": "Sakura - Holiday Inn Salmiya",
+      "reason": "duplicate",
+      "matchType": "fuzzy_name",
+      "existingId": "a4530bb8-0cca-4eaf-b40d-9d9ebfd51055",
+      "timestamp": "2025-11-12T14:34:51.295Z"
+    },
+    {
+      "priority": 30,
+      "name": "Crowne Plaza Hotel Jamawar restaurant",
+      "reason": "duplicate",
+      "matchType": "fuzzy_name",
+      "existingId": "c3335a5b-123b-41f1-abc7-039aabf4e4f0",
+      "timestamp": "2025-11-12T14:35:01.607Z"
+    },
+    {
+      "priority": 26,
+      "name": "Caribbean Hut Restaurant",
+      "reason": "duplicate",
+      "matchType": "fuzzy_name",
+      "existingId": "d42c62ef-0771-48f0-900c-a98346e1cad1",
+      "timestamp": "2025-11-12T14:37:48.938Z"
+    },
+    {
+      "priority": 27,
+      "name": "The Kimchi",
+      "reason": "duplicate",
+      "matchType": "fuzzy_name",
+      "existingId": "4a2b8a7a-17bd-4e36-a844-bf577add78d1",
+      "timestamp": "2025-11-12T14:37:59.321Z"
+    },
+    {
+      "priority": 28,
+      "name": "Lunch Room",
+      "reason": "duplicate",
+      "matchType": "fuzzy_name",
+      "existingId": "bb27acd5-f6dc-40a8-bdab-e2c0b367ed45",
+      "timestamp": "2025-11-12T14:38:09.733Z"
+    },
+    {
+      "priority": 29,
+      "name": "Sakura - Holiday Inn Salmiya",
+      "reason": "duplicate",
+      "matchType": "fuzzy_name",
+      "existingId": "a4530bb8-0cca-4eaf-b40d-9d9ebfd51055",
+      "timestamp": "2025-11-12T14:38:20.100Z"
+    },
+    {
+      "priority": 30,
+      "name": "Crowne Plaza Hotel Jamawar restaurant",
+      "reason": "duplicate",
+      "matchType": "fuzzy_name",
+      "existingId": "c3335a5b-123b-41f1-abc7-039aabf4e4f0",
+      "timestamp": "2025-11-12T14:38:30.436Z"
+    },
+    {
+      "priority": 49,
+      "name": "The Cheesecake Factory",
+      "reason": "duplicate",
+      "matchType": "fuzzy_name",
+      "existingId": "2685bdd9-0c21-463f-8daf-6ac3ed5406fd",
+      "timestamp": "2025-11-12T14:42:59.485Z"
+    }
+  ],
+  "lastProcessed": 68,
+  "completedAt": "2025-11-12T14:35:01.608Z"
+}

@@ -1,0 +1,17 @@
+--- attraction_types ---
+beach,Beach,beach
+cave,Cave,cave
+church,Church,church
+fort,Fort,fort
+heritage-site,Heritage Site,heritage-site
+lake,Lake,lake
+market,Market,market
+museum,Museum,museum
+spice-plantation,Spice Plantation,spice-plantation
+temple,Temple,temple
+viewpoint,Viewpoint,viewpoint
+waterfall,Waterfall,waterfall
+wildlife-sanctuary,Wildlife Sanctuary,wildlife-sanctuary
+--- attraction_categories ---
+--- attraction_amenities ---
+--- attraction_features ---

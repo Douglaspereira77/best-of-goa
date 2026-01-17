@@ -1,0 +1,1975 @@
+﻿{
+  "metadata": {
+    "analyzedAt": "2025-11-12T11:27:49.242Z",
+    "totalInCSV": 218,
+    "existingMatches": 0,
+    "potentialDuplicates": 0,
+    "newToExtract": 218
+  },
+  "existingMatches": [],
+  "potentialDuplicates": [],
+  "prioritizedNewRestaurants": [
+    {
+      "name": "Al Noukhaza Seafood Restaurant",
+      "rating": 4.8,
+      "reviewCount": 700,
+      "location": "Farwaniya",
+      "cuisineType": "Seafood, Mediterranean",
+      "priceRange": "$$$$",
+      "priorityScore": 98
+    },
+    {
+      "name": "AL Ahmadi International Restaurant",
+      "rating": 4.9,
+      "reviewCount": 567,
+      "location": "Farwaniya",
+      "cuisineType": "International, Mediterranean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 96
+    },
+    {
+      "name": "Stambul",
+      "rating": 4.9,
+      "reviewCount": 350,
+      "location": "Al Zahra",
+      "cuisineType": "Turkish",
+      "priceRange": "$$$$",
+      "priorityScore": 94
+    },
+    {
+      "name": "LibertÃ©",
+      "rating": 5,
+      "reviewCount": 236,
+      "location": "Al Zahra",
+      "cuisineType": "French, European",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 92
+    },
+    {
+      "name": "Palm Court Terrace",
+      "rating": 4.9,
+      "reviewCount": 1066,
+      "location": "Fahaheel",
+      "cuisineType": "Lebanese, Seafood",
+      "priceRange": "$$$$",
+      "priorityScore": 92
+    },
+    {
+      "name": "Ayam Zaman Crowne Plaza Hotel",
+      "rating": 4.9,
+      "reviewCount": 434,
+      "location": "Farwaniya",
+      "cuisineType": "Lebanese, Mediterranean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 91
+    },
+    {
+      "name": "P.F. Chang's",
+      "rating": 4.1,
+      "reviewCount": 551,
+      "location": "Rai",
+      "cuisineType": "Chinese, Cantonese",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 90
+    },
+    {
+      "name": "Teatro Restaurant",
+      "rating": 4.9,
+      "reviewCount": 1588,
+      "location": "Fahaheel",
+      "cuisineType": "International",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 89
+    },
+    {
+      "name": "Jamawar Indian Restaurant",
+      "rating": 4.9,
+      "reviewCount": 482,
+      "location": "Goa City",
+      "cuisineType": "Indian, Asian",
+      "priceRange": "$$$$",
+      "priorityScore": 89
+    },
+    {
+      "name": "Pepper Steakhouse",
+      "rating": 4.8,
+      "reviewCount": 395,
+      "location": "Goa City",
+      "cuisineType": "Steakhouse, Grill",
+      "priceRange": "$$$$",
+      "priorityScore": 88
+    },
+    {
+      "name": "Soul and Spice",
+      "rating": 4.8,
+      "reviewCount": 242,
+      "location": "Goa City",
+      "cuisineType": "Indian",
+      "priceRange": "$$$$",
+      "priorityScore": 88
+    },
+    {
+      "name": "Jamawar Indian Restuarant",
+      "rating": 4.7,
+      "reviewCount": 201,
+      "location": "Salmiya",
+      "cuisineType": "Indian, Asian",
+      "priceRange": "$$$$",
+      "priorityScore": 88
+    },
+    {
+      "name": "Principale Ristorante Di Nino",
+      "rating": 4.9,
+      "reviewCount": 341,
+      "location": "Goa City",
+      "cuisineType": "Italian, Neapolitan",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 86
+    },
+    {
+      "name": "Atrium Restaurant & Lounge",
+      "rating": 4.9,
+      "reviewCount": 240,
+      "location": "Goa City",
+      "cuisineType": "International",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 86
+    },
+    {
+      "name": "Blendz",
+      "rating": 4.9,
+      "reviewCount": 225,
+      "location": "Goa City",
+      "cuisineType": "International, Arabic",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 86
+    },
+    {
+      "name": "Al Boom Steak & Seafood Restaurant",
+      "rating": 4.5,
+      "reviewCount": 217,
+      "location": "Goa City",
+      "cuisineType": "Steakhouse, Seafood",
+      "priceRange": "$$$$",
+      "priorityScore": 86
+    },
+    {
+      "name": "The Cheesecake Factory",
+      "rating": 4.2,
+      "reviewCount": 840,
+      "location": "Goa City",
+      "cuisineType": "American, Central American",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 86
+    },
+    {
+      "name": "Freij Sweileh",
+      "rating": 4.2,
+      "reviewCount": 537,
+      "location": "Goa City",
+      "cuisineType": "Middle Eastern",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 86
+    },
+    {
+      "name": "Olio Trattoria Italiana",
+      "rating": 4.8,
+      "reviewCount": 421,
+      "location": "Goa City",
+      "cuisineType": "Italian, Pizza",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 85
+    },
+    {
+      "name": "Crowne Plaza Goa Rib Eye",
+      "rating": 4.7,
+      "reviewCount": 245,
+      "location": "Goa City",
+      "cuisineType": "American, Steakhouse",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 85
+    },
+    {
+      "name": "Tang Chao Chinese Restaurant",
+      "rating": 4.7,
+      "reviewCount": 207,
+      "location": "Salmiya",
+      "cuisineType": "Chinese, Asian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 85
+    },
+    {
+      "name": "Wahaj Restaurant",
+      "rating": 4.9,
+      "reviewCount": 257,
+      "location": "Fahaheel",
+      "cuisineType": "International, Healthy",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 84
+    },
+    {
+      "name": "Sakura Japanese Restaurant",
+      "rating": 4.6,
+      "reviewCount": 448,
+      "location": "Goa City",
+      "cuisineType": "Japanese, Sushi",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 84
+    },
+    {
+      "name": "Dar Hamad",
+      "rating": 4.3,
+      "reviewCount": 244,
+      "location": "Salmiya",
+      "cuisineType": "Middle Eastern",
+      "priceRange": "$$$$",
+      "priorityScore": 84
+    },
+    {
+      "name": "Mei Li",
+      "rating": 4.8,
+      "reviewCount": 178,
+      "location": "Goa City",
+      "cuisineType": "Asian, Szechuan",
+      "priceRange": "$$$$",
+      "priorityScore": 83
+    },
+    {
+      "name": "Asha's",
+      "rating": 4.1,
+      "reviewCount": 207,
+      "location": "Goa City",
+      "cuisineType": "Indian, Asian",
+      "priceRange": "$$$$",
+      "priorityScore": 83
+    },
+    {
+      "name": "The Kimchi",
+      "rating": 4.6,
+      "reviewCount": 54,
+      "location": "Salwa",
+      "cuisineType": "Barbecue, Asian",
+      "priceRange": "$$$$",
+      "priorityScore": 82
+    },
+    {
+      "name": "Slider Station",
+      "rating": 4.4,
+      "reviewCount": 203,
+      "location": "Goa City",
+      "cuisineType": "American",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 82
+    },
+    {
+      "name": "Sabaidee Thai Cuisine",
+      "rating": 4.4,
+      "reviewCount": 101,
+      "location": "Mahboula",
+      "cuisineType": "Seafood, Asian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 82
+    },
+    {
+      "name": "Together & Co. Restaurant",
+      "rating": 4.9,
+      "reviewCount": 179,
+      "location": "Goa City",
+      "cuisineType": "American, International",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 81
+    },
+    {
+      "name": "Babel",
+      "rating": 4.3,
+      "reviewCount": 328,
+      "location": "Salmiya",
+      "cuisineType": "Lebanese, Mediterranean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 81
+    },
+    {
+      "name": "SOLO Pizza Napulitana",
+      "rating": 4.3,
+      "reviewCount": 244,
+      "location": "Goa City",
+      "cuisineType": "Italian, Pizza",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 81
+    },
+    {
+      "name": "Lobby Lounge",
+      "rating": 5,
+      "reviewCount": 131,
+      "location": "Fahaheel",
+      "cuisineType": "Cafe",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 80
+    },
+    {
+      "name": "Al Diwan Restaurant",
+      "rating": 4.8,
+      "reviewCount": 181,
+      "location": "Salmiya",
+      "cuisineType": "Seafood, International",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 80
+    },
+    {
+      "name": "Shabestan Iranian Restaurant",
+      "rating": 4.7,
+      "reviewCount": 177,
+      "location": "Goa City",
+      "cuisineType": "Middle Eastern, Persian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 80
+    },
+    {
+      "name": "Dean & Deluca",
+      "rating": 4.1,
+      "reviewCount": 263,
+      "location": "Goa City",
+      "cuisineType": "International, European",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 80
+    },
+    {
+      "name": "Saheel Lounge",
+      "rating": 4.9,
+      "reviewCount": 92,
+      "location": "Goa City",
+      "cuisineType": "Cafe, Healthy",
+      "priceRange": "$$$$",
+      "priorityScore": 79
+    },
+    {
+      "name": "Mint CafÃ¨",
+      "rating": 4.9,
+      "reviewCount": 54,
+      "location": "Goa City",
+      "cuisineType": "Healthy, Eastern European",
+      "priceRange": "$$$$",
+      "priorityScore": 79
+    },
+    {
+      "name": "Peacock Chinese Restaurant",
+      "rating": 4.3,
+      "reviewCount": 154,
+      "location": "Salmiya",
+      "cuisineType": "Chinese, Asian",
+      "priceRange": "$$$$",
+      "priorityScore": 79
+    },
+    {
+      "name": "Sultanchef Steakhause",
+      "rating": 4.3,
+      "reviewCount": 146,
+      "location": "Goa City",
+      "cuisineType": "Steakhouse, Mediterranean",
+      "priceRange": "$$$$",
+      "priorityScore": 79
+    },
+    {
+      "name": "The Meat Co",
+      "rating": 4.2,
+      "reviewCount": 140,
+      "location": "Goa City",
+      "cuisineType": "Steakhouse",
+      "priceRange": "$$$$",
+      "priorityScore": 79
+    },
+    {
+      "name": "Ayam Zaman Lebanese Restaurant",
+      "rating": 4.5,
+      "reviewCount": 160,
+      "location": "Salmiya",
+      "cuisineType": "Lebanese, Mediterranean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 78
+    },
+    {
+      "name": "Sakura - Holiday Inn Salmiya",
+      "rating": 4.5,
+      "reviewCount": 125,
+      "location": "Salmiya",
+      "cuisineType": "Japanese, Sushi",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 78
+    },
+    {
+      "name": "Sushi - Japanese Restaurant",
+      "rating": 5,
+      "reviewCount": 98,
+      "location": "Goa City",
+      "cuisineType": "Japanese, Sushi",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 77
+    },
+    {
+      "name": "Silk Restaurant",
+      "rating": 4.9,
+      "reviewCount": 84,
+      "location": "Goa City",
+      "cuisineType": "International",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 76
+    },
+    {
+      "name": "The Early Bird",
+      "rating": 4.3,
+      "reviewCount": 63,
+      "location": "Hawalli",
+      "cuisineType": "American",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 76
+    },
+    {
+      "name": "P.F. Chang's",
+      "rating": 4.2,
+      "reviewCount": 136,
+      "location": "Salmiya",
+      "cuisineType": "Chinese, Asian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 76
+    },
+    {
+      "name": "Maki Marina Waves",
+      "rating": 4.2,
+      "reviewCount": 189,
+      "location": "Goa City",
+      "cuisineType": "Japanese, Sushi",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 76
+    },
+    {
+      "name": "Mais Alghanim",
+      "rating": 4.2,
+      "reviewCount": 74,
+      "location": "Mahboula",
+      "cuisineType": "Lebanese, Seafood",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 76
+    },
+    {
+      "name": "AVA Restaurant",
+      "rating": 5,
+      "reviewCount": 13,
+      "location": "Goa City",
+      "cuisineType": "Mediterranean",
+      "priceRange": "$$$$",
+      "priorityScore": 75
+    },
+    {
+      "name": "Gang Nam Asian Cuisine",
+      "rating": 4.8,
+      "reviewCount": 31,
+      "location": "Mahboula",
+      "cuisineType": "Korean, Tibetan",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 75
+    },
+    {
+      "name": "Feynman's Restaurant",
+      "rating": 4.8,
+      "reviewCount": 44,
+      "location": "Mahboula",
+      "cuisineType": "Italian, Pizza",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 75
+    },
+    {
+      "name": "Maki, Burj Jasim",
+      "rating": 4.7,
+      "reviewCount": 98,
+      "location": "Goa City",
+      "cuisineType": "Japanese, Sushi",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 75
+    },
+    {
+      "name": "Texas Roadhouse",
+      "rating": 4.1,
+      "reviewCount": 189,
+      "location": "Goa City",
+      "cuisineType": "American, Steakhouse",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 75
+    },
+    {
+      "name": "Oriental Cusine",
+      "rating": 4.1,
+      "reviewCount": 58,
+      "location": "Dasman",
+      "cuisineType": "Asian, Thai",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 75
+    },
+    {
+      "name": "Mughal Mahal Salmiya Elite",
+      "rating": 4.1,
+      "reviewCount": 168,
+      "location": "Salmiya",
+      "cuisineType": "Indian, International",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 75
+    },
+    {
+      "name": "Grand Castell",
+      "rating": 5,
+      "reviewCount": 6,
+      "location": "Goa City",
+      "cuisineType": "Italian, Steakhouse",
+      "priceRange": "$$$$",
+      "priorityScore": 75
+    },
+    {
+      "name": "LaMeSho Restaurant",
+      "rating": 4.4,
+      "reviewCount": 17,
+      "location": "Mahboula",
+      "cuisineType": "Italian, American",
+      "priceRange": "$$$$",
+      "priorityScore": 75
+    },
+    {
+      "name": "Kings Of Maillard Restaurant",
+      "rating": 5,
+      "reviewCount": 3,
+      "location": "Goa City",
+      "cuisineType": "French, Steakhouse",
+      "priceRange": "$$$$",
+      "priorityScore": 75
+    },
+    {
+      "name": "Zephere Restaurant",
+      "rating": 4.8,
+      "reviewCount": 6,
+      "location": "Farwaniya",
+      "cuisineType": "Seafood",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 75
+    },
+    {
+      "name": "Garden CafÃ©",
+      "rating": 4.9,
+      "reviewCount": 25,
+      "location": "Goa City",
+      "cuisineType": "International",
+      "priceRange": "$$$$",
+      "priorityScore": 74
+    },
+    {
+      "name": "ROKA Goa",
+      "rating": 4.9,
+      "reviewCount": 22,
+      "location": "Goa City",
+      "cuisineType": "Japanese, Sushi",
+      "priceRange": "$$$$",
+      "priorityScore": 74
+    },
+    {
+      "name": "Shahrayar Persian Restaurant",
+      "rating": 4.2,
+      "reviewCount": 74,
+      "location": "Goa City",
+      "cuisineType": "Middle Eastern, Persian",
+      "priceRange": "$$$$",
+      "priorityScore": 74
+    },
+    {
+      "name": "Riccardo Italian Restaurant",
+      "rating": 4.9,
+      "reviewCount": 10,
+      "location": "Goa City",
+      "cuisineType": "Italian",
+      "priceRange": "$$$$",
+      "priorityScore": 74
+    },
+    {
+      "name": "Lobby Lounge",
+      "rating": 4.7,
+      "reviewCount": 32,
+      "location": "Goa City",
+      "cuisineType": "Cafe, International",
+      "priceRange": "$$$$",
+      "priorityScore": 73
+    },
+    {
+      "name": "Asha's",
+      "rating": 4.5,
+      "reviewCount": 46,
+      "location": "Mahboula",
+      "cuisineType": "Indian, Asian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 73
+    },
+    {
+      "name": "Eataly",
+      "rating": 4.5,
+      "reviewCount": 28,
+      "location": "Rai",
+      "cuisineType": "Italian, Tuscan",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 73
+    },
+    {
+      "name": "Tatami",
+      "rating": 4.5,
+      "reviewCount": 60,
+      "location": "Goa City",
+      "cuisineType": "Japanese, Sushi",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 73
+    },
+    {
+      "name": "Blaze Pizza",
+      "rating": 4.5,
+      "reviewCount": 22,
+      "location": "Rai",
+      "cuisineType": "Pizza",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 73
+    },
+    {
+      "name": "Masgouf London",
+      "rating": 4.5,
+      "reviewCount": 4,
+      "location": "Rai",
+      "cuisineType": "Grill, Arabic",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 73
+    },
+    {
+      "name": "Spice Tree",
+      "rating": 4.5,
+      "reviewCount": 6,
+      "location": "Mahboula",
+      "cuisineType": "Chinese, Thai",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 73
+    },
+    {
+      "name": "Huqqabaz Goa",
+      "rating": 5,
+      "reviewCount": 33,
+      "location": "Salmiya",
+      "cuisineType": "International, Turkish",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 72
+    },
+    {
+      "name": "The Cheesecake Factory",
+      "rating": 4.4,
+      "reviewCount": 59,
+      "location": "Goa City",
+      "cuisineType": "American",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 72
+    },
+    {
+      "name": "Cocoa Room",
+      "rating": 4.4,
+      "reviewCount": 64,
+      "location": "Goa City",
+      "cuisineType": "Cafe",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 72
+    },
+    {
+      "name": "Sabaidee Thai Restaurant",
+      "rating": 4.4,
+      "reviewCount": 25,
+      "location": "Fintas",
+      "cuisineType": "Asian, Thai",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 72
+    },
+    {
+      "name": "Fish Market",
+      "rating": 4.6,
+      "reviewCount": 9,
+      "location": "Salmiya",
+      "cuisineType": "Seafood, Mediterranean",
+      "priceRange": "$$$$",
+      "priorityScore": 72
+    },
+    {
+      "name": "Amimoto",
+      "rating": 5,
+      "reviewCount": 3,
+      "location": "Goa City",
+      "cuisineType": "Japanese",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 72
+    },
+    {
+      "name": "Amiti Noura",
+      "rating": 4.4,
+      "reviewCount": 7,
+      "location": "Rai",
+      "cuisineType": "",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 72
+    },
+    {
+      "name": "BurgerFi",
+      "rating": 4.4,
+      "reviewCount": 9,
+      "location": "Hawalli",
+      "cuisineType": "American",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 72
+    },
+    {
+      "name": "Bays International Restaurant",
+      "rating": 4.9,
+      "reviewCount": 17,
+      "location": "Goa City",
+      "cuisineType": "Italian, Indian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "Dampa Feast Al Kout",
+      "rating": 4.9,
+      "reviewCount": 12,
+      "location": "Goa City",
+      "cuisineType": "Filipino, Seafood",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "Edo",
+      "rating": 4.5,
+      "reviewCount": 41,
+      "location": "Goa City",
+      "cuisineType": "Japanese, Sushi",
+      "priceRange": "$$$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "SinToHo",
+      "rating": 4.5,
+      "reviewCount": 30,
+      "location": "Goa City",
+      "cuisineType": "Japanese, Asian",
+      "priceRange": "$$$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "Princi",
+      "rating": 4.3,
+      "reviewCount": 12,
+      "location": "Farwaniya",
+      "cuisineType": "",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "Cioccolati Italiani The Avenues",
+      "rating": 4.3,
+      "reviewCount": 39,
+      "location": "Farwaniya",
+      "cuisineType": "Italian, Cafe",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "China Great Wall Restaurant",
+      "rating": 4.3,
+      "reviewCount": 28,
+      "location": "Mahboula",
+      "cuisineType": "Chinese, Asian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "Kateh",
+      "rating": 4.3,
+      "reviewCount": 98,
+      "location": "Goa City",
+      "cuisineType": "Middle Eastern, Persian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "Asha's 1st Avenue - The Avenues",
+      "rating": 4.3,
+      "reviewCount": 88,
+      "location": "Goa City",
+      "cuisineType": "Indian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "Leila Min Lebnen - The Avenues",
+      "rating": 4.2,
+      "reviewCount": 80,
+      "location": "Goa City",
+      "cuisineType": "Lebanese, Mediterranean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "Ubon",
+      "rating": 4.2,
+      "reviewCount": 92,
+      "location": "Goa City",
+      "cuisineType": "Asian, Thai",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "Kashounat Al-Bait",
+      "rating": 4.2,
+      "reviewCount": 90,
+      "location": "Goa City",
+      "cuisineType": "Middle Eastern",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "Ashas Goa",
+      "rating": 4.2,
+      "reviewCount": 46,
+      "location": "Hawalli",
+      "cuisineType": "Indian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "Cucina Restaurant",
+      "rating": 4.2,
+      "reviewCount": 71,
+      "location": "Goa City",
+      "cuisineType": "",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "sushi club",
+      "rating": 4.5,
+      "reviewCount": 31,
+      "location": "Goa City",
+      "cuisineType": "Japanese, Sushi",
+      "priceRange": "$$$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "San Ristorante",
+      "rating": 4.3,
+      "reviewCount": 13,
+      "location": "Shaab",
+      "cuisineType": "Italian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "Cafe Bazza Mahboula",
+      "rating": 4.2,
+      "reviewCount": 17,
+      "location": "Mahboula",
+      "cuisineType": "Lebanese, Cafe",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 71
+    },
+    {
+      "name": "Baker And Spice",
+      "rating": 5,
+      "reviewCount": 8,
+      "location": "Farwaniya",
+      "cuisineType": "International",
+      "priceRange": "",
+      "priorityScore": 70
+    },
+    {
+      "name": "300F Smokehouse Restaurant",
+      "rating": 4.8,
+      "reviewCount": 30,
+      "location": "Goa City",
+      "cuisineType": "American, Steakhouse",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 70
+    },
+    {
+      "name": "Flavors Restaurant Safir Hotel Goa",
+      "rating": 4.7,
+      "reviewCount": 13,
+      "location": "Goa City",
+      "cuisineType": "International",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 70
+    },
+    {
+      "name": "Al Hambra International Restaurant",
+      "rating": 4.4,
+      "reviewCount": 26,
+      "location": "Goa City",
+      "cuisineType": "International, Middle Eastern",
+      "priceRange": "$$$$",
+      "priorityScore": 70
+    },
+    {
+      "name": "White Robata",
+      "rating": 4.4,
+      "reviewCount": 50,
+      "location": "Goa City",
+      "cuisineType": "Japanese, Sushi",
+      "priceRange": "$$$$",
+      "priorityScore": 70
+    },
+    {
+      "name": "Olive Garden",
+      "rating": 4.1,
+      "reviewCount": 49,
+      "location": "Mahboula",
+      "cuisineType": "Italian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 70
+    },
+    {
+      "name": "Le Pain Quotidien",
+      "rating": 4.1,
+      "reviewCount": 86,
+      "location": "Salmiya",
+      "cuisineType": "Cafe, European",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 70
+    },
+    {
+      "name": "Riccardo Italian Restaurant",
+      "rating": 4.4,
+      "reviewCount": 27,
+      "location": "Goa City",
+      "cuisineType": "Italian, European",
+      "priceRange": "$$$$",
+      "priorityScore": 70
+    },
+    {
+      "name": "Gyros",
+      "rating": 4.8,
+      "reviewCount": 12,
+      "location": "Goa City",
+      "cuisineType": "Cafe, Mediterranean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 70
+    },
+    {
+      "name": "Raising Cane's",
+      "rating": 5,
+      "reviewCount": 3,
+      "location": "Jabriya",
+      "cuisineType": "",
+      "priceRange": "",
+      "priorityScore": 70
+    },
+    {
+      "name": "Mughal Mahal Exotica",
+      "rating": 4.8,
+      "reviewCount": 5,
+      "location": "Salmiya",
+      "cuisineType": "Chinese, American",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 70
+    },
+    {
+      "name": "Cafe Bazza Mohallab",
+      "rating": 4.1,
+      "reviewCount": 15,
+      "location": "Hawalli",
+      "cuisineType": "Lebanese, Cafe",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 70
+    },
+    {
+      "name": "Nino - Arabella",
+      "rating": 5,
+      "reviewCount": 3,
+      "location": "Salwa",
+      "cuisineType": "Italian, International",
+      "priceRange": "",
+      "priorityScore": 70
+    },
+    {
+      "name": "Baker And Spice - 360 Mall",
+      "rating": 4.9,
+      "reviewCount": 11,
+      "location": "Al Zahra",
+      "cuisineType": "International",
+      "priceRange": "",
+      "priorityScore": 69
+    },
+    {
+      "name": "Atlantis at The Safir Marina Hotel",
+      "rating": 4.6,
+      "reviewCount": 36,
+      "location": "Salmiya",
+      "cuisineType": "International",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 69
+    },
+    {
+      "name": "Vigonovo",
+      "rating": 4.6,
+      "reviewCount": 38,
+      "location": "Goa City",
+      "cuisineType": "Italian, Pizza",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 69
+    },
+    {
+      "name": "Em Sherif Restaurant",
+      "rating": 4.3,
+      "reviewCount": 26,
+      "location": "Goa City",
+      "cuisineType": "Lebanese, Mediterranean",
+      "priceRange": "$$$$",
+      "priorityScore": 69
+    },
+    {
+      "name": "Almayass",
+      "rating": 4,
+      "reviewCount": 76,
+      "location": "Goa City",
+      "cuisineType": "Lebanese, Mediterranean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 69
+    },
+    {
+      "name": "Palm & Berdawny Restaurant",
+      "rating": 4,
+      "reviewCount": 56,
+      "location": "Goa City",
+      "cuisineType": "Lebanese, International",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 69
+    },
+    {
+      "name": "Oak and Smoke",
+      "rating": 4.6,
+      "reviewCount": 7,
+      "location": "Goa City",
+      "cuisineType": "American, Barbecue",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 69
+    },
+    {
+      "name": "Elements",
+      "rating": 4.3,
+      "reviewCount": 9,
+      "location": "Goa City",
+      "cuisineType": "International",
+      "priceRange": "$$$$",
+      "priorityScore": 69
+    },
+    {
+      "name": "Buffalo's Ranch",
+      "rating": 4,
+      "reviewCount": 48,
+      "location": "Mahboula",
+      "cuisineType": "American",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 69
+    },
+    {
+      "name": "Paul Bakery & Restaurant",
+      "rating": 4,
+      "reviewCount": 26,
+      "location": "Farwaniya",
+      "cuisineType": "Cafe",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 69
+    },
+    {
+      "name": "Ridley's Burger",
+      "rating": 4.6,
+      "reviewCount": 8,
+      "location": "Goa City",
+      "cuisineType": "American",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 69
+    },
+    {
+      "name": "Asha's",
+      "rating": 4.5,
+      "reviewCount": 30,
+      "location": "Goa City",
+      "cuisineType": "Indian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 68
+    },
+    {
+      "name": "Ovo",
+      "rating": 4.5,
+      "reviewCount": 43,
+      "location": "Goa City",
+      "cuisineType": "",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 68
+    },
+    {
+      "name": "Crowne Plaza Hotel Jamawar restaurant",
+      "rating": 4.5,
+      "reviewCount": 37,
+      "location": "Goa City",
+      "cuisineType": "Indian, Asian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 68
+    },
+    {
+      "name": "Habra Beef Canteen",
+      "rating": 4.5,
+      "reviewCount": 31,
+      "location": "Goa City",
+      "cuisineType": "Steakhouse",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 68
+    },
+    {
+      "name": "IL TERRAZZO",
+      "rating": 4.5,
+      "reviewCount": 21,
+      "location": "Salmiya",
+      "cuisineType": "Bar, Fast Food",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 68
+    },
+    {
+      "name": "Rock House Sliders",
+      "rating": 4.5,
+      "reviewCount": 22,
+      "location": "Goa City",
+      "cuisineType": "Fast Food",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 68
+    },
+    {
+      "name": "Le Tarbouche Lebanese Restaurant",
+      "rating": 4.1,
+      "reviewCount": 39,
+      "location": "Goa City",
+      "cuisineType": "Lebanese",
+      "priceRange": "$$$$",
+      "priorityScore": 68
+    },
+    {
+      "name": "Khaneen Restaurant",
+      "rating": 4.5,
+      "reviewCount": 16,
+      "location": "Goa City",
+      "cuisineType": "Middle Eastern",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 68
+    },
+    {
+      "name": "MARSA",
+      "rating": 4.5,
+      "reviewCount": 17,
+      "location": "Goa City",
+      "cuisineType": "Seafood, Middle Eastern",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 68
+    },
+    {
+      "name": "Koryokwan",
+      "rating": 4.5,
+      "reviewCount": 10,
+      "location": "Goa City",
+      "cuisineType": "Asian, Korean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 68
+    },
+    {
+      "name": "Flower Latte 360 Mall",
+      "rating": 4.8,
+      "reviewCount": 4,
+      "location": "Farwaniya",
+      "cuisineType": "Cafe, Mediterranean",
+      "priceRange": "",
+      "priorityScore": 68
+    },
+    {
+      "name": "Utopia",
+      "rating": 4.7,
+      "reviewCount": 3,
+      "location": "Rai",
+      "cuisineType": "Italian, Mexican",
+      "priceRange": "",
+      "priorityScore": 68
+    },
+    {
+      "name": "Caribbean Hut Restaurant",
+      "rating": 4.6,
+      "reviewCount": 87,
+      "location": "Goa City",
+      "cuisineType": "Caribbean, Latin",
+      "priceRange": "$",
+      "priorityScore": 67
+    },
+    {
+      "name": "Dampa Feast Salmiya",
+      "rating": 4.4,
+      "reviewCount": 35,
+      "location": "Salmiya",
+      "cuisineType": "Filipino, Seafood",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 67
+    },
+    {
+      "name": "Al Bustan Restaurant",
+      "rating": 4.4,
+      "reviewCount": 18,
+      "location": "Goa City",
+      "cuisineType": "Lebanese, Mediterranean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 67
+    },
+    {
+      "name": "P.F. Chang's",
+      "rating": 4.2,
+      "reviewCount": 10,
+      "location": "Fahaheel",
+      "cuisineType": "Chinese",
+      "priceRange": "$$$$",
+      "priorityScore": 67
+    },
+    {
+      "name": "Eighty Six",
+      "rating": 4.4,
+      "reviewCount": 12,
+      "location": "Goa City",
+      "cuisineType": "American",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 67
+    },
+    {
+      "name": "Joori Min",
+      "rating": 4.4,
+      "reviewCount": 9,
+      "location": "Goa City",
+      "cuisineType": "Arabic",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 67
+    },
+    {
+      "name": "Flower Latte Avenues",
+      "rating": 4.6,
+      "reviewCount": 5,
+      "location": "Farwaniya",
+      "cuisineType": "Cafe, Mediterranean",
+      "priceRange": "",
+      "priorityScore": 67
+    },
+    {
+      "name": "Dikakeen",
+      "rating": 4.2,
+      "reviewCount": 37,
+      "location": "Goa City",
+      "cuisineType": "Middle Eastern",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Horizon - Goa Towers Restaurant",
+      "rating": 4.2,
+      "reviewCount": 44,
+      "location": "Goa City",
+      "cuisineType": "International, Arabic",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Shemam",
+      "rating": 4.2,
+      "reviewCount": 48,
+      "location": "Goa City",
+      "cuisineType": "Seafood, Middle Eastern",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Naranj Restaurant",
+      "rating": 4.2,
+      "reviewCount": 50,
+      "location": "Goa City",
+      "cuisineType": "Mediterranean, Middle Eastern",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Crumbs",
+      "rating": 4.2,
+      "reviewCount": 45,
+      "location": "Goa City",
+      "cuisineType": "International",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Al Shamam Restaurant",
+      "rating": 4.2,
+      "reviewCount": 37,
+      "location": "Goa City",
+      "cuisineType": "Seafood, Mediterranean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Burger Boutique Arraya Mall",
+      "rating": 4.3,
+      "reviewCount": 23,
+      "location": "Goa City",
+      "cuisineType": "American",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Dalak Suhail",
+      "rating": 4.3,
+      "reviewCount": 35,
+      "location": "Goa City",
+      "cuisineType": "Middle Eastern",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Lucca Steakhouse",
+      "rating": 4.2,
+      "reviewCount": 21,
+      "location": "Goa City",
+      "cuisineType": "Steakhouse",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Solia",
+      "rating": 4.2,
+      "reviewCount": 19,
+      "location": "Goa City",
+      "cuisineType": "Mediterranean, Middle Eastern",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "The Grove",
+      "rating": 4.2,
+      "reviewCount": 18,
+      "location": "Goa City",
+      "cuisineType": "European",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Melenzane",
+      "rating": 4.2,
+      "reviewCount": 26,
+      "location": "Goa City",
+      "cuisineType": "Italian, European",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Solo Tacos",
+      "rating": 4.3,
+      "reviewCount": 32,
+      "location": "Goa City",
+      "cuisineType": "Mexican, Latin",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Dukkan Burger",
+      "rating": 4.3,
+      "reviewCount": 18,
+      "location": "Goa City",
+      "cuisineType": "Fusion",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Ora Japanese Tapas",
+      "rating": 4.3,
+      "reviewCount": 11,
+      "location": "Goa City",
+      "cuisineType": "Japanese",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Chocomelt",
+      "rating": 4.3,
+      "reviewCount": 16,
+      "location": "Goa City",
+      "cuisineType": "Cafe",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Matbakhi",
+      "rating": 4.3,
+      "reviewCount": 8,
+      "location": "Goa City",
+      "cuisineType": "Lebanese, Mediterranean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Azteca",
+      "rating": 4.2,
+      "reviewCount": 18,
+      "location": "Goa City",
+      "cuisineType": "Mexican, Latin",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Olivo",
+      "rating": 4.2,
+      "reviewCount": 10,
+      "location": "Salmiya",
+      "cuisineType": "Italian, International",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Burger Boutique View Mall",
+      "rating": 4.2,
+      "reviewCount": 13,
+      "location": "Goa City",
+      "cuisineType": "American",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Habra Avenues",
+      "rating": 4.5,
+      "reviewCount": 4,
+      "location": "Rai",
+      "cuisineType": "Steakhouse",
+      "priceRange": "",
+      "priorityScore": 66
+    },
+    {
+      "name": "Downtown Reataurant",
+      "rating": 4.5,
+      "reviewCount": 6,
+      "location": "Dasman",
+      "cuisineType": "International",
+      "priceRange": "",
+      "priorityScore": 66
+    },
+    {
+      "name": "Arirang",
+      "rating": 4.3,
+      "reviewCount": 9,
+      "location": "Goa City",
+      "cuisineType": "Asian, Korean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "The Bowl Restaurant",
+      "rating": 4.3,
+      "reviewCount": 12,
+      "location": "Goa City",
+      "cuisineType": "",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Sala Thai Restaurant",
+      "rating": 4.3,
+      "reviewCount": 8,
+      "location": "Goa City",
+      "cuisineType": "Thai",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Review CafÃ©",
+      "rating": 4.2,
+      "reviewCount": 5,
+      "location": "Goa City",
+      "cuisineType": "Cafe",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 66
+    },
+    {
+      "name": "Marco's Burger",
+      "rating": 5,
+      "reviewCount": 24,
+      "location": "Goa City",
+      "cuisineType": "",
+      "priceRange": "",
+      "priorityScore": 65
+    },
+    {
+      "name": "Oxio Poolside Lounge And Bar",
+      "rating": 5,
+      "reviewCount": 11,
+      "location": "Goa City",
+      "cuisineType": "Turkish, Grill",
+      "priceRange": "",
+      "priorityScore": 65
+    },
+    {
+      "name": "The Cheescake Factory",
+      "rating": 4.4,
+      "reviewCount": 27,
+      "location": "Mahboula",
+      "cuisineType": "",
+      "priceRange": "",
+      "priorityScore": 65
+    },
+    {
+      "name": "Zwarah Goai Restaurant",
+      "rating": 4.1,
+      "reviewCount": 37,
+      "location": "Goa City",
+      "cuisineType": "Middle Eastern",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "Ahwet Zeitouna",
+      "rating": 4.1,
+      "reviewCount": 14,
+      "location": "Goa City",
+      "cuisineType": "Lebanese, Cafe",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "Applebee's",
+      "rating": 4.1,
+      "reviewCount": 28,
+      "location": "Goa City",
+      "cuisineType": "American",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "Trapani Cicchetteria",
+      "rating": 4.1,
+      "reviewCount": 47,
+      "location": "Goa City",
+      "cuisineType": "Italian, Mediterranean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "Calicut Live",
+      "rating": 4.1,
+      "reviewCount": 34,
+      "location": "Salmiya",
+      "cuisineType": "Indian, Asian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "Avanti Palace",
+      "rating": 4.1,
+      "reviewCount": 37,
+      "location": "Salmiya",
+      "cuisineType": "Indian, Asian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "Johnny Rocket",
+      "rating": 4.1,
+      "reviewCount": 37,
+      "location": "Salmiya",
+      "cuisineType": "American, Fast Food",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "Al Dente Restaurant",
+      "rating": 5,
+      "reviewCount": 6,
+      "location": "Goa City",
+      "cuisineType": "Italian",
+      "priceRange": "",
+      "priorityScore": 65
+    },
+    {
+      "name": "Table Otto",
+      "rating": 4.1,
+      "reviewCount": 28,
+      "location": "Goa City",
+      "cuisineType": "Cafe, European",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "KEI Downtown",
+      "rating": 5,
+      "reviewCount": 4,
+      "location": "Goa City",
+      "cuisineType": "",
+      "priceRange": "",
+      "priorityScore": 65
+    },
+    {
+      "name": "Magnet",
+      "rating": 4.1,
+      "reviewCount": 21,
+      "location": "Salmiya",
+      "cuisineType": "Cafe",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "Stone Grill",
+      "rating": 4.1,
+      "reviewCount": 32,
+      "location": "Goa City",
+      "cuisineType": "Steakhouse",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "OFK",
+      "rating": 5,
+      "reviewCount": 3,
+      "location": "Goa City",
+      "cuisineType": "International",
+      "priceRange": "",
+      "priorityScore": 65
+    },
+    {
+      "name": "Osmanli 1453 Resturant",
+      "rating": 4.4,
+      "reviewCount": 7,
+      "location": "Fahaheel",
+      "cuisineType": "Turkish",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "Agnii",
+      "rating": 4.1,
+      "reviewCount": 13,
+      "location": "Goa City",
+      "cuisineType": "Indian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "Bao",
+      "rating": 4.1,
+      "reviewCount": 17,
+      "location": "Goa City",
+      "cuisineType": "Chinese, Asian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "PizzaExpress",
+      "rating": 5,
+      "reviewCount": 5,
+      "location": "Salmiya",
+      "cuisineType": "",
+      "priceRange": "",
+      "priorityScore": 65
+    },
+    {
+      "name": "Vila Fairooz",
+      "rating": 4.1,
+      "reviewCount": 20,
+      "location": "Goa City",
+      "cuisineType": "Lebanese, Mediterranean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "Meme's Curry",
+      "rating": 4.1,
+      "reviewCount": 13,
+      "location": "Salmiya",
+      "cuisineType": "Japanese, Indian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "Dogmatic",
+      "rating": 4.1,
+      "reviewCount": 10,
+      "location": "Salmiya",
+      "cuisineType": "Fast Food",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 65
+    },
+    {
+      "name": "Kenny Rogers Roasters",
+      "rating": 4.9,
+      "reviewCount": 14,
+      "location": "Salmiya",
+      "cuisineType": "American",
+      "priceRange": "",
+      "priorityScore": 64
+    },
+    {
+      "name": "Sharaf",
+      "rating": 4.2,
+      "reviewCount": 65,
+      "location": "Goa City",
+      "cuisineType": "Fast Food, Mediterranean",
+      "priceRange": "$",
+      "priorityScore": 64
+    },
+    {
+      "name": "Cafe Bazza Salmiya",
+      "rating": 4,
+      "reviewCount": 35,
+      "location": "Salmiya",
+      "cuisineType": "Lebanese, Cafe",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 64
+    },
+    {
+      "name": "Bebabel",
+      "rating": 4,
+      "reviewCount": 15,
+      "location": "Goa City",
+      "cuisineType": "Lebanese, Mediterranean",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 64
+    },
+    {
+      "name": "Little Ruby's",
+      "rating": 4,
+      "reviewCount": 17,
+      "location": "Goa City",
+      "cuisineType": "Italian, American",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 64
+    },
+    {
+      "name": "Crimson Garden",
+      "rating": 4,
+      "reviewCount": 14,
+      "location": "Goa City",
+      "cuisineType": "Middle Eastern, Persian",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 64
+    },
+    {
+      "name": "Wasabi",
+      "rating": 4,
+      "reviewCount": 21,
+      "location": "Goa City",
+      "cuisineType": "Japanese, Sushi",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 64
+    },
+    {
+      "name": "Versus Versace Caffe",
+      "rating": 4.2,
+      "reviewCount": 13,
+      "location": "Dasman",
+      "cuisineType": "Italian",
+      "priceRange": "",
+      "priorityScore": 64
+    },
+    {
+      "name": "Murouj",
+      "rating": 4,
+      "reviewCount": 13,
+      "location": "Goa City",
+      "cuisineType": "",
+      "priceRange": "$$ - $$$",
+      "priorityScore": 64
+    },
+    {
+      "name": "Oishii Sushi",
+      "rating": 4.7,
+      "reviewCount": 17,
+      "location": "Goa City",
+      "cuisineType": "Japanese, Sushi",
+      "priceRange": "",
+      "priorityScore": 63
+    },
+    {
+      "name": "Farzi Cafe",
+      "rating": 4.8,
+      "reviewCount": 9,
+      "location": "Goa City",
+      "cuisineType": "",
+      "priceRange": "",
+      "priorityScore": 63
+    },
+    {
+      "name": "Philippe Chow Goa",
+      "rating": 4.8,
+      "reviewCount": 4,
+      "location": "Goa City",
+      "cuisineType": "Chinese",
+      "priceRange": "",
+      "priorityScore": 63
+    },
+    {
+      "name": "Leila Min Lebnen",
+      "rating": 5,
+      "reviewCount": 4,
+      "location": "Fahaheel",
+      "cuisineType": "Lebanese, Mediterranean",
+      "priceRange": "",
+      "priorityScore": 63
+    },
+    {
+      "name": "Melenzane",
+      "rating": 4.7,
+      "reviewCount": 10,
+      "location": "Goa City",
+      "cuisineType": "Italian",
+      "priceRange": "",
+      "priorityScore": 63
+    },
+    {
+      "name": "Midar",
+      "rating": 4.7,
+      "reviewCount": 3,
+      "location": "Goa City",
+      "cuisineType": "Seafood",
+      "priceRange": "",
+      "priorityScore": 63
+    },
+    {
+      "name": "Light Complex Restaurants",
+      "rating": 4.1,
+      "reviewCount": 7,
+      "location": "Mahboula",
+      "cuisineType": "",
+      "priceRange": "",
+      "priorityScore": 63
+    },
+    {
+      "name": "Lunch Room",
+      "rating": 4.6,
+      "reviewCount": 14,
+      "location": "Salmiya",
+      "cuisineType": "Cafe",
+      "priceRange": "",
+      "priorityScore": 62
+    },
+    {
+      "name": "Kashounat Al - Bait 360 Mall Branch",
+      "rating": 4,
+      "reviewCount": 22,
+      "location": "Farwaniya",
+      "cuisineType": "Middle Eastern",
+      "priceRange": "",
+      "priorityScore": 62
+    },
+    {
+      "name": "Fleur's Corner",
+      "rating": 4.6,
+      "reviewCount": 8,
+      "location": "Goa City",
+      "cuisineType": "",
+      "priceRange": "",
+      "priorityScore": 62
+    },
+    {
+      "name": "Canary Restaurant",
+      "rating": 4.1,
+      "reviewCount": 62,
+      "location": "Fahaheel",
+      "cuisineType": "Middle Eastern",
+      "priceRange": "$",
+      "priorityScore": 61
+    },
+    {
+      "name": "Dine",
+      "rating": 4.5,
+      "reviewCount": 14,
+      "location": "Goa City",
+      "cuisineType": "Middle Eastern, Arabic",
+      "priceRange": "",
+      "priorityScore": 61
+    },
+    {
+      "name": "Misk",
+      "rating": 4.4,
+      "reviewCount": 8,
+      "location": "Salmiya",
+      "cuisineType": "Lebanese, Mediterranean",
+      "priceRange": "",
+      "priorityScore": 60
+    },
+    {
+      "name": "Pattaya Beach Restaurant",
+      "rating": 4.4,
+      "reviewCount": 9,
+      "location": "Goa City",
+      "cuisineType": "Thai",
+      "priceRange": "",
+      "priorityScore": 60
+    },
+    {
+      "name": "Phuket Thai Restaurant",
+      "rating": 4.2,
+      "reviewCount": 25,
+      "location": "Salmiya",
+      "cuisineType": "Asian, Thai",
+      "priceRange": "$",
+      "priorityScore": 59
+    },
+    {
+      "name": "Mayar Restaurant for Lebanese Cuisine",
+      "rating": 4.2,
+      "reviewCount": 15,
+      "location": "Goa City",
+      "cuisineType": "Lebanese, Mediterranean",
+      "priceRange": "",
+      "priorityScore": 59
+    },
+    {
+      "name": "Doppio",
+      "rating": 4.2,
+      "reviewCount": 11,
+      "location": "Goa City",
+      "cuisineType": "Italian, Pizza",
+      "priceRange": "",
+      "priorityScore": 59
+    },
+    {
+      "name": "Khaneen Restaurant murouj branch",
+      "rating": 4.1,
+      "reviewCount": 26,
+      "location": "Goa City",
+      "cuisineType": "",
+      "priceRange": "",
+      "priorityScore": 58
+    },
+    {
+      "name": "La Marina",
+      "rating": 4.1,
+      "reviewCount": 27,
+      "location": "Goa City",
+      "cuisineType": "",
+      "priceRange": "",
+      "priorityScore": 58
+    },
+    {
+      "name": "Wah Ji Wah",
+      "rating": 4,
+      "reviewCount": 23,
+      "location": "Salmiya",
+      "cuisineType": "Asian, Pakistani",
+      "priceRange": "$",
+      "priorityScore": 57
+    },
+    {
+      "name": "Fol O Yasmine",
+      "rating": 4.3,
+      "reviewCount": 8,
+      "location": "Fahaheel",
+      "cuisineType": "",
+      "priceRange": "",
+      "priorityScore": 57
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+﻿[
+  {
+    "csvName": "Sushi - Japanese Restaurant",
+    "csvLocation": "Goa City",
+    "dbId": "fb50cadf-1af1-42ca-931c-823aa20c275d",
+    "dbName": "Yaki Japanese Restaurant",
+    "dbArea": "Hawally",
+    "matchType": "Fuzzy Match (71.4% similar)",
+    "confidence": 71.42857142857143,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Huqqabaz Goa",
+    "csvLocation": "Salmiya",
+    "dbId": "bf129f4f-90a2-41dd-96f9-7b0c84b1eb84",
+    "dbName": "HuQQabaz",
+    "dbArea": "Al-Bidea",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "AVA Restaurant",
+    "csvLocation": "Goa City",
+    "dbId": "022c3645-2ac8-4e98-9d50-7fd19c2a9466",
+    "dbName": "Lavan (Sharq)",
+    "dbArea": "Sharq",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Teatro Restaurant",
+    "csvLocation": "Fahaheel",
+    "dbId": "d94598dc-6ba6-4269-8d11-2bf967ace13c",
+    "dbName": "Beastro",
+    "dbArea": "Sahara Club - Chalets Rd",
+    "matchType": "Fuzzy Match (71.4% similar)",
+    "confidence": 71.42857142857143,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "AL Ahmadi International Restaurant",
+    "csvLocation": "Farwaniya",
+    "dbId": "b55d0e43-706e-48ee-b9e7-763ae23c044a",
+    "dbName": "Al Ahmadi Restaurant",
+    "dbArea": "Al Farwaniyah",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Ayam Zaman Crowne Plaza Hotel",
+    "csvLocation": "Farwaniya",
+    "dbId": "14bb46d5-606b-4787-9084-52acb6c4e962",
+    "dbName": "Ayam Zaman",
+    "dbArea": "Salmiya",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Atrium Restaurant & Lounge",
+    "csvLocation": "Goa City",
+    "dbId": "a7572a91-3525-4b30-b92e-e5de03da60e1",
+    "dbName": "Kastana restaurant and cafe",
+    "dbArea": "Salmiya",
+    "matchType": "Fuzzy Match (72.7% similar)",
+    "confidence": 72.72727272727273,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Together & Co. Restaurant",
+    "csvLocation": "Goa City",
+    "dbId": "c751e08e-c1ab-446e-87df-cb0282413bc6",
+    "dbName": "November & Co.",
+    "dbArea": "Salmiya",
+    "matchType": "Fuzzy Match (73.3% similar)",
+    "confidence": 73.33333333333333,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Garden CafÃ©",
+    "csvLocation": "Goa City",
+    "dbId": "6e668aff-9eb6-4081-b322-46594f3ea826",
+    "dbName": "China Garden",
+    "dbArea": "Salmiya",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Pepper Steakhouse",
+    "csvLocation": "Goa City",
+    "dbId": "06ea8a3e-011d-44b5-942f-e814ae12a0ea",
+    "dbName": "Pepper",
+    "dbArea": "Messila",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Gang Nam Asian Cuisine",
+    "csvLocation": "Mahboula",
+    "dbId": "53efcbe2-db76-4d98-bd96-fd4d4a7868bb",
+    "dbName": "GangNam Sino Korean Cuisine",
+    "dbArea": "Mahboula",
+    "matchType": "Location + Name Match (66.7% + location)",
+    "confidence": 81.66666666666666,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Maki, Burj Jasim",
+    "csvLocation": "Goa City",
+    "dbId": "0ba5d883-0f49-40f6-8975-a1e31e12e78f",
+    "dbName": "Maki",
+    "dbArea": "Mirqab",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Sakura Japanese Restaurant",
+    "csvLocation": "Goa City",
+    "dbId": "ff1334b4-f096-4146-83e2-734ade611495",
+    "dbName": "Sakura Japanese Restaurant Al Thuraya City",
+    "dbArea": "Al Farwaniyah",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Edo",
+    "csvLocation": "Goa City",
+    "dbId": "e9b10b49-ed6c-4add-907e-6a437042802e",
+    "dbName": "Edo Restaurant-Goa",
+    "dbArea": "Salmiya",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Ayam Zaman Lebanese Restaurant",
+    "csvLocation": "Salmiya",
+    "dbId": "36438c32-8564-43d4-ad48-1d343d9ad520",
+    "dbName": "Ayam Zaman Lebanese Restaurant | Ù…Ø·Ø¹Ù… Ø£ÙŠØ§Ù… Ø²Ù…Ø§Ù† Ø§Ù„Ù„Ø¨Ù†Ø§Ù†ÙŠ",
+    "dbArea": "Salmiya",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "IL TERRAZZO",
+    "csvLocation": "Salmiya",
+    "dbId": "0433625e-5f5a-4e47-9537-7703bd1bfae3",
+    "dbName": "Il Terrazzo - Restaurant & Lounge",
+    "dbArea": "Salmiya",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Sabaidee Thai Cuisine",
+    "csvLocation": "Mahboula",
+    "dbId": "8117fe0b-c990-4f9d-952d-ec43892424eb",
+    "dbName": "Sabaidee Thai Restaurant",
+    "dbArea": "Mahboula",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Cioccolati Italiani The Avenues",
+    "csvLocation": "Farwaniya",
+    "dbId": "351ad1cb-5511-4f08-8882-d767fe90844c",
+    "dbName": "ave restaurant",
+    "dbArea": "Jibla",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Asha's 1st Avenue - The Avenues",
+    "csvLocation": "Goa City",
+    "dbId": "351ad1cb-5511-4f08-8882-d767fe90844c",
+    "dbName": "ave restaurant",
+    "dbArea": "Jibla",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Leila Min Lebnen - The Avenues",
+    "csvLocation": "Goa City",
+    "dbId": "351ad1cb-5511-4f08-8882-d767fe90844c",
+    "dbName": "ave restaurant",
+    "dbArea": "Jibla",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Ubon",
+    "csvLocation": "Goa City",
+    "dbId": "3c670676-ef9c-42fc-b292-b0e1d8e29e40",
+    "dbName": "Ubon Murouj",
+    "dbArea": "Sabhan",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Kashounat Al-Bait",
+    "csvLocation": "Goa City",
+    "dbId": "3129d871-436b-489f-a282-dc13ae1dbb69",
+    "dbName": "Kashounat Al-Bait ÙƒØ§Ø´ÙˆÙ†Ø© Ø§Ù„Ø¨ÙŠØª",
+    "dbArea": "Eqaila",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "The Meat Co",
+    "csvLocation": "Goa City",
+    "dbId": "d0b968be-98de-4067-9274-d32335b6c934",
+    "dbName": "The Meat Co. Goa",
+    "dbArea": "Zahra",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Maki Marina Waves",
+    "csvLocation": "Goa City",
+    "dbId": "0ba5d883-0f49-40f6-8975-a1e31e12e78f",
+    "dbName": "Maki",
+    "dbArea": "Mirqab",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Ashas Goa",
+    "csvLocation": "Hawalli",
+    "dbId": "6fdc15d3-6348-4891-ae14-8f111794daa3",
+    "dbName": "Asha's",
+    "dbArea": "Mahboula",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Freij Sweileh",
+    "csvLocation": "Goa City",
+    "dbId": "c7d1f9ff-6f35-4890-979e-75cf79d9e28b",
+    "dbName": "Freej Swaeleh",
+    "dbArea": "Salmiya",
+    "matchType": "Fuzzy Match (76.9% similar)",
+    "confidence": 76.92307692307693,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Mughal Mahal Salmiya Elite",
+    "csvLocation": "Salmiya",
+    "dbId": "5ece23ba-c067-48b8-ab67-c632ccd55b6e",
+    "dbName": "Mughal Mahal Salmiya Marina Plaza",
+    "dbArea": "Salmiya",
+    "matchType": "Location + Name Match (66.7% + location)",
+    "confidence": 81.66666666666666,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Solia",
+    "csvLocation": "Goa City",
+    "dbId": "370ec2d8-0b4c-42b8-b5ad-98a8952d953f",
+    "dbName": "Solia Murouj",
+    "dbArea": "Mubarak Al-Abdullah",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Melenzane",
+    "csvLocation": "Goa City",
+    "dbId": "b92e484c-f535-4208-85b0-03a2d0fa37c3",
+    "dbName": "Melenzane - Al Harma Mall",
+    "dbArea": "Sharq",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Almayass",
+    "csvLocation": "Goa City",
+    "dbId": "74c02a31-1a36-4787-b6aa-ff5e5e722c26",
+    "dbName": "Ù…Ø·Ø¹Ù… Ø£Ù„Ù…ÙŠÙ‘Ø§Ø³ | Almayass Restaurant",
+    "dbArea": "Al-Bidaa",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Oak and Smoke",
+    "csvLocation": "Goa City",
+    "dbId": "74c5cd99-9842-4dcd-aa42-13e80acce50a",
+    "dbName": "Oak and Smoke On Deck",
+    "dbArea": "Al Khiran",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "MARSA",
+    "csvLocation": "Goa City",
+    "dbId": "27d663b0-88df-4081-a148-4f8e8762d0d8",
+    "dbName": "Al Marsa",
+    "dbArea": "Sharq",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Khaneen Restaurant murouj branch",
+    "csvLocation": "Goa City",
+    "dbId": "7a8b079c-028c-420c-b1b3-e8d9cfd530a7",
+    "dbName": "Khaneen Restaurant",
+    "dbArea": "Mubarak Al-Abdullah",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Olivo",
+    "csvLocation": "Salmiya",
+    "dbId": "d4ef448c-df18-4df6-b8a5-5ac1d2ddd168",
+    "dbName": "Oliveto",
+    "dbArea": "Goa",
+    "matchType": "Fuzzy Match (71.4% similar)",
+    "confidence": 71.42857142857143,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Agnii",
+    "csvLocation": "Goa City",
+    "dbId": "42e51dd3-1058-42f9-a1d2-ba874047127e",
+    "dbName": "Agnii Seaview",
+    "dbArea": "Abu Halifa",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "PizzaExpress",
+    "csvLocation": "Salmiya",
+    "dbId": "2dca089d-f543-406c-b8b4-4bc2f927b6ff",
+    "dbName": "China express",
+    "dbArea": "Salmiya",
+    "matchType": "Location + Name Match (61.5% + location)",
+    "confidence": 76.53846153846155,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Melenzane",
+    "csvLocation": "Goa City",
+    "dbId": "b92e484c-f535-4208-85b0-03a2d0fa37c3",
+    "dbName": "Melenzane - Al Harma Mall",
+    "dbArea": "Sharq",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Habra Avenues",
+    "csvLocation": "Rai",
+    "dbId": "351ad1cb-5511-4f08-8882-d767fe90844c",
+    "dbName": "ave restaurant",
+    "dbArea": "Jibla",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Ridley's Burger",
+    "csvLocation": "Goa City",
+    "dbId": "1166014f-46e5-457a-969e-9ff51a7ef111",
+    "dbName": "Jimmy's Burger",
+    "dbArea": "Jibla",
+    "matchType": "Fuzzy Match (71.4% similar)",
+    "confidence": 71.42857142857143,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Flower Latte Avenues",
+    "csvLocation": "Farwaniya",
+    "dbId": "351ad1cb-5511-4f08-8882-d767fe90844c",
+    "dbName": "ave restaurant",
+    "dbArea": "Jibla",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Meme's Curry",
+    "csvLocation": "Salmiya",
+    "dbId": "ed26edd8-135a-4e8b-b530-2baa704f35f8",
+    "dbName": "Meme's Curry - Salmiya",
+    "dbArea": "Salmiya",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  },
+  {
+    "csvName": "Murouj",
+    "csvLocation": "Goa City",
+    "dbId": "3fd4c0b3-d709-4868-bb03-0f2aae450943",
+    "dbName": "Trapani (Murouj)",
+    "dbArea": "Middle Area",
+    "matchType": "Partial Name Match",
+    "confidence": 80,
+    "recommendation": "Likely Duplicate"
+  }
+]

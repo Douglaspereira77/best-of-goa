@@ -1,0 +1,188 @@
+EXTRACTION STATUS TRACKING - CODE FILE LOCATIONS
+================================================
+
+CORE EXTRACTION SYSTEM
+======================
+
+1. API: Start Extraction
+   File: C:\Users\Douglas\.claude\projects\BOK\src\app\api\admin\start-extraction\route.ts
+   Key Functions:
+   - POST request handler
+   - Creates restaurant record with status: importing
+   - Initializes job_progress with initial_creation step
+   - Calls extractionOrchestrator.executeExtraction() asynchronously
+   - Returns restaurant_id for frontend polling
+
+2. API: Status Polling Endpoint
+   File: C:\Users\Douglas\.claude\projects\BOK\src\app\api\admin\extraction-status\[jobId]\route.ts
+   Key Functions:
+   - GET request handler
+   - Calculates progress percentage based on job_progress steps
+   - Builds step array with status, timestamps, and errors
+   - Optimizes response: lightweight during polling, full data on completion
+   - Uses parallel queries for restaurants + dishes + FAQs + images
+   - Returns response every 2 seconds from frontend polling
+
+3. Extraction Orchestrator
+   File: C:\Users\Douglas\.claude\projects\BOK\src\lib\services\extraction-orchestrator.ts
+   Key Functions:
+   - executeExtraction(job): Main orchestration pipeline
+   - runStep(restaurantId, stepName, stepFunction): Executes single step with error handling
+   - updateStepProgress(restaurantId, stepName, status, error): Updates job_progress field
+   - updateRestaurantStatus(restaurantId, status): Updates status field
+   - logError(restaurantId, error): Logs errors to error_logs array
+   - updateImageProgress(restaurantId, progress): Updates only progress metrics (not status)
+   
+   12 Steps Executed:
+   1. apify_fetch (CRITICAL)
+   2. firecrawl_general
+   3. firecrawl_menu
+   4. firecrawl_website
+   5. firecrawl_social_media_search
+   6. apify_reviews
+   7. firecrawl_tripadvisor
+   8. firecrawl_opentable
+   9. process_images
+   10. ai_sentiment
+   11. ai_enhancement
+   12. data_mapping
+
+4. Frontend Polling
+   File: C:\Users\Douglas\.claude\projects\BOK\src\app\admin\add\page.tsx
+   Key Functions:
+   - startExtraction(restaurant): Calls /api/admin/start-extraction
+   - startPolling(restaurantId): Sets up 2-second interval polling
+   - pollStatus(restaurantId): Fetches status from /api/admin/extraction-status/[restaurantId]
+   - updateRestaurantData(statusData): Updates UI with extracted data
+   
+   Key Variables:
+   - pollingInterval: NodeJS.Timeout (tracks interval ID)
+   - pollingStartTime: Tracks start time for 10-minute timeout
+   - MAX_POLLING_DURATION: 10 * 60 * 1000 (10 minutes)
+   - Polling interval: 2 seconds
+   
+   Polling Stops When:
+   - status === 'completed'
+   - status === 'failed'
+   - 10 minutes elapsed
+   - User navigates away (cleanup on unmount)
+
+5. Restaurant Queries
+   File: C:\Users\Douglas\.claude\projects\BOK\src\lib\utils\restaurant-queries.ts
+   Key Class: RestaurantQueries
+   Key Methods:
+   - getRestaurantWithRelations(id): Get restaurant with all relationships resolved
+   - resolveRelationshipArrays(restaurant): Resolves cuisines, categories, features, meals, good_for
+   
+   Uses Parallel Queries:
+   - All relationship queries execute in Promise.all() for 70%+ speed improvement
+
+
+DATABASE SCHEMA
+===============
+
+1. Primary Table: restaurants
+   Fields for Extraction:
+   - id: UUID
+   - name: VARCHAR
+   - slug: VARCHAR
+   - status: VARCHAR (importing, processing, active, failed)
+   - google_place_id: VARCHAR
+   - job_progress: JSONB (contains all step statuses)
+   - error_logs: JSONB array (error objects)
+   - import_started_at: TIMESTAMP
+   - import_completed_at: TIMESTAMP
+   - updated_at: TIMESTAMP
+   
+   Data Storage Fields:
+   - apify_output: JSONB
+   - firecrawl_output: JSONB
+   - firecrawl_menu_output: JSONB
+   - menu_data: JSONB
+   - ai_enhancement_output: JSONB
+
+2. Related Tables:
+   - restaurants_images: Extracted images
+   - restaurants_dishes: Menu items
+   - restaurants_faqs: Frequently asked questions
+   - restaurant_reviews: Customer reviews
+   - restaurants_cuisines: Cuisine reference
+   - restaurants_categories: Category reference
+   - restaurants_features: Feature tags
+   - restaurants_meals: Meal types
+   - restaurants_good_for: "Good for" tags
+   - restaurant_neighborhoods: Neighborhood mapping
+   - michelin_guide_awards: Awards reference
+
+   Migration File:
+   - C:\Users\Douglas\.claude\projects\BOK\migrations\add-phase1-fields.sql
+
+
+SUPPORTING SERVICES
+===================
+
+1. Data Mapper
+   File: src/lib/services/data-mapper.ts
+   Purpose: Maps extracted data to reference table IDs (cuisines, features, neighborhoods)
+
+2. Firecrawl Client
+   File: src/lib/services/firecrawl-client.ts
+   Purpose: Handles Firecrawl API calls for web scraping
+
+3. Apify Client
+   File: src/lib/services/apify-client.ts
+   Purpose: Handles Apify API calls for data extraction
+
+4. OpenAI Client
+   File: src/lib/services/openai-client.ts
+   Purpose: GPT-4o AI enhancement and content generation
+
+5. Image Extractor
+   File: src/lib/services/image-extractor.ts
+   Purpose: Extracts and validates images with progress tracking
+
+6. Social Media Search
+   File: src/lib/services/social-media-search.ts
+   Purpose: Multi-platform social media URL discovery
+
+
+DOCUMENTATION FILES
+===================
+
+1. Full Analysis
+   File: C:\Users\Douglas\.claude\projects\BOK\docs\EXTRACTION_STATUS_TRACKING_ANALYSIS.md
+   Contents: Complete system documentation
+
+2. Quick Reference
+   File: C:\Users\Douglas\.claude\projects\BOK\EXTRACTION_QUICK_REFERENCE.txt
+   Contents: Quick lookup reference
+
+3. This File
+   File: C:\Users\Douglas\.claude\projects\BOK\CODE_FILE_LOCATIONS.txt
+   Contents: Code file locations and key functions
+
+
+KEY FLOW SUMMARY
+================
+
+User clicks Run:
+  1. handleRunExtraction() in src/app/admin/add/page.tsx
+  2. POST /api/admin/start-extraction
+  3. Returns restaurant_id
+  4. startPolling(restaurant_id) begins
+  
+Extraction Background Process:
+  1. extractionOrchestrator.executeExtraction() async
+  2. Executes 12 steps via runStep()
+  3. Each step updates job_progress[stepName] in restaurants table
+  4. Status = importing -> processing -> active (or failed)
+  5. Updates error_logs if any step fails
+  
+Frontend Polling:
+  1. Every 2 seconds: GET /api/admin/extraction-status/[restaurantId]
+  2. Response calculates progress_percentage from job_progress
+  3. Maps backend steps to display steps
+  4. Updates UI with current progress
+  5. Stops when status = completed or failed
+  6. Timeout after 10 minutes
+

@@ -1,0 +1,39 @@
+agonda,Agonda,agonda
+anjuna,Anjuna,anjuna
+arambol,Arambol,arambol
+ashwem,Ashwem,ashwem
+assagao,Assagao,assagao
+baga,Baga,baga
+benaulim,Benaulim,benaulim
+bogmalo,Bogmalo,bogmalo
+calangute,Calangute,calangute
+canacona,Canacona,canacona
+candolim,Candolim,candolim
+cavelossim,Cavelossim,cavelossim
+colva,Colva,colva
+dona-paula,Dona Paula,dona-paula
+madgaon,Madgaon,madgaon
+majorda,Majorda,majorda
+mandrem,Mandrem,mandrem
+mapusa,Mapusa,mapusa
+margao,Margao,margao
+miramar,Miramar,miramar
+mobor,Mobor,mobor
+morjim,Morjim,morjim
+nerul,Nerul,nerul
+old-goa,Old Goa,old-goa
+palolem,Palolem,palolem
+panaji,Panaji,panaji
+panjim,Panjim,panjim
+patnem,Patnem,patnem
+ponda,Ponda,ponda
+porvorim,Porvorim,porvorim
+quepem,Quepem,quepem
+saligao,Saligao,saligao
+sinquerim,Sinquerim,sinquerim
+siolim,Siolim,siolim
+utorda,Utorda,utorda
+vagator,Vagator,vagator
+varca,Varca,varca
+vasco,Vasco,vasco
+vasco-da-gama,Vasco da Gama,vasco-da-gama

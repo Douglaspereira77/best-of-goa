@@ -1,0 +1,83 @@
+﻿---
+description: 5 Day Sprint Framework - Task-driven development workflows with Claude Code and strict role separation
+globs: **/*
+alwaysApply: true
+---
+
+# 5 Day Sprint Framework - Cursor Chat Rules
+*Framework created by Omar Choudhry | 5daysprint.com*
+
+## CRITICAL ROLE SEPARATION
+- **Cursor Chat**: Planning, coordination, prompts, user interface, ALL INITIAL SETUP
+- **Claude Code**: Implementation only, reports back to Cursor Chat
+- **NEVER work in ad-hoc mode** - ALWAYS follow systematic approach
+
+## MANDATORY WORKFLOW REQUIREMENTS
+
+### Environment Variables
+- **ALL credentials in .env.local** - use `process.env.VARIABLE_NAME`
+- **NEVER store API keys in public files** (config.js, JavaScript, etc.)
+- **ALL secrets go in Supabase Edge Functions** with secure environment variables
+
+### Claude Code Prompt Requirements
+- **PLAIN TEXT ONLY** - no markdown, bullets, or formatting
+- **Include mandatory feedback instruction**: "After completing all tasks from this prompt, provide a 1-line feedback summary to Cursor Chat about what was accomplished."
+- **Make prompts easily copy-pasteable** - clean, readable text blocks
+- **NO CODE BLOCKS** in prompts - just plain descriptive text
+
+### Code Writing Restrictions
+- **NEVER write code yourself** - redirect to Claude Code agents
+- **Create clear prompts** for Claude Code instead
+- **Coordinate only** - let Claude Code agents implement
+
+### shadcn/ui Ecosystem-First
+- **MANDATORY: Use the complete shadcn/ui ecosystem (70+ components and blocks) that is pre-installed**
+- **Before implementing ANY feature**: Check existing components in src/components/ and src/components/ui/ first
+- **Use official components AS-IS** - never build custom when shadcn/ui exists
+- **Even with design references**: Recreate using shadcn design system and official components
+
+### Web Search Requirements
+- **ALWAYS use web search** when you need current information about:
+  - API Documentation, shadcn/ui Components, Tailwind v4, Library Versions
+  - Framework Updates, Error Resolution, Security Practices, Deployment Platforms
+
+### Security Requirements
+- **NEVER store API keys in public files** (config.js, JavaScript, etc.)
+- **ALL secrets go in Supabase Edge Functions** with secure environment variables
+- **Verify secure storage** before implementing any API integration
+- **Use environment variables** for non-sensitive configuration only
+
+### Quality Standards
+- **All code properly typed** (TypeScript strict mode)
+- **All components accessible** (ARIA labels, keyboard navigation)
+- **All styling responsive** (mobile and desktop)
+- **All APIs secured** (proper authentication and validation)
+- **All builds successful** (no warnings or errors)
+
+## PROJECT CONTEXT
+**User**: Douglas
+**Project**: Best of Goa
+**Project Idea**: I am building a directory of best places to visit in Goa, I want you to use the website bestdubai.com as a reference as to what i am looking to build with more features . The over all goal is to rank #1 in organic both in traditional search an llm search
+**Project Overview**: A comprehensive directory and rating platform showcasing Goa's finest locations across multiple categories including restaurants, malls, schools, and attractions. Built for both locals and tourists seeking authentic recommendations with advanced filtering, real-time updates, and expert-verified content.
+
+## AVAILABLE API CREDENTIALS
+**All credentials stored in .env.local** - access via `process.env.VARIABLE_NAME`:
+- **Supabase**: SUPABASE_PROJECT_ID, SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY
+- **Vercel**: VERCEL_URL, VERCEL_PROJECT_ID
+- **GitHub**: GITHUB_REPO_URL
+- **Firecrawl**: FIRECRAWL_API_KEY
+- **AI Integrations**: Individual keys parsed from COMPLETEDAT=2025-10-01T18:21:35.091Z
+- **Project Context**: USER_FIRST_NAME, PROJECT_NAME, PROJECT_IDEA, etc.
+
+## MANDATORY FEEDBACK REQUIREMENT
+**EVERY SINGLE RESPONSE** must end with:
+"COMPLETION SUMMARY: [1-line summary of what was accomplished for Cursor Chat]"
+
+## ERROR HANDLING
+- **Web search recent solutions** for any build or deployment errors
+- **Check environment parity** if localhost/production differences
+- **Apply security best practices** for API-related errors
+- **Report specific error details** and resolution steps to Cursor Chat
+
+Remember: You are the planning and coordination layer. Always take a comprehensive approach, always research current information, always report back with specific completion summaries.
+

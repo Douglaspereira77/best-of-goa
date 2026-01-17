@@ -1,0 +1,121 @@
+EXTRACTION STATUS TRACKING - QUICK REFERENCE
+=============================================
+
+PRIMARY TABLE
+=============
+Table: restaurants (Supabase PostgreSQL)
+
+Key Fields:
+- id: UUID (primary key)
+- status: VARCHAR (importing, processing, active, failed)
+- job_progress: JSONB (hierarchical step tracking)
+- error_logs: JSONB array (error objects with timestamps)
+- import_started_at: TIMESTAMP
+- import_completed_at: TIMESTAMP
+- updated_at: TIMESTAMP
+
+
+JOB_PROGRESS STRUCTURE (JSONB)
+==============================
+{
+  "initial_creation": { status, completed_at },
+  "apify_fetch": { status, started_at, completed_at, error },
+  "firecrawl_general": { status, started_at, completed_at, error },
+  "firecrawl_menu": { status, started_at, completed_at, error },
+  "firecrawl_website": { status, started_at, completed_at, error },
+  "firecrawl_social_media_search": { status, started_at, completed_at, error },
+  "apify_reviews": { status, started_at, completed_at, error },
+  "firecrawl_tripadvisor": { status, started_at, completed_at, error },
+  "firecrawl_opentable": { status, started_at, completed_at, error },
+  "process_images": { status, images_processed, images_total, current_cost, current_phase },
+  "ai_sentiment": { status, started_at, completed_at, error },
+  "ai_enhancement": { status, started_at, completed_at, error },
+  "data_mapping": { status, started_at, completed_at, error }
+}
+
+Status values: pending, running, completed, failed
+
+
+API ENDPOINTS
+=============
+1. POST /api/admin/start-extraction
+   - Creates restaurant record
+   - Returns restaurant_id for polling
+   - Triggers background extraction
+
+2. GET /api/admin/extraction-status/[restaurantId]
+   - Returns current progress
+   - Frontend polls every 2 seconds
+   - Full data sent only on completion (80% payload reduction)
+
+
+EXTRACTION STEPS (11 TOTAL)
+===========================
+1. apify_fetch (CRITICAL - stops pipeline on failure)
+2. firecrawl_general
+3. firecrawl_menu
+4. firecrawl_website
+5. firecrawl_social_media_search
+6. apify_reviews
+7. firecrawl_tripadvisor
+8. firecrawl_opentable
+9. process_images (with cost tracking)
+10. ai_sentiment
+11. ai_enhancement
+12. data_mapping
+
+
+COMPLETION LOGIC
+================
+Frontend: Polling stops when status = completed or failed
+Backend: All 12 steps must have status = completed
+Timeout: 10 minutes max polling duration
+
+
+FILE LOCATIONS
+==============
+- Start extraction: src/app/api/admin/start-extraction/route.ts
+- Status endpoint: src/app/api/admin/extraction-status/[jobId]/route.ts
+- Polling logic: src/app/admin/add/page.tsx (startPolling, pollStatus functions)
+- Orchestrator: src/lib/services/extraction-orchestrator.ts (runStep, updateStepProgress)
+- Query utilities: src/lib/utils/restaurant-queries.ts
+
+
+RELATED TABLES
+==============
+- restaurants_images
+- restaurants_dishes
+- restaurants_faqs
+- restaurant_reviews
+- restaurants_cuisines
+- restaurants_categories
+- restaurants_features
+- restaurants_meals
+- restaurants_good_for
+- restaurant_neighborhoods
+- michelin_guide_awards
+
+
+ERROR HANDLING
+==============
+- Stored in: restaurants.error_logs (JSONB array)
+- Each error has: timestamp, message, stack trace
+- Critical steps: apify_fetch stops pipeline on error
+- Other steps: Continue pipeline even if they fail
+
+
+DIAGNOSTIC QUERIES
+==================
+Check Beastro status:
+SELECT id, name, status, job_progress, error_logs
+FROM restaurants 
+WHERE name = 'Beastro' 
+ORDER BY created_at DESC;
+
+Check specific step errors:
+SELECT job_progress->'apify_fetch'->>'error' as apify_error
+FROM restaurants WHERE name = 'Beastro';
+
+View all errors:
+SELECT id, name, error_logs FROM restaurants WHERE name = 'Beastro';
+

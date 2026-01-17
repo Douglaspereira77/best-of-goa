@@ -1,0 +1,31 @@
+﻿{
+  "name": "Best of Goa",
+  "short_name": "BOK",
+  "description": "Discover Goa's finest restaurants, hotels, malls, attractions, schools, and fitness centers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e40af",
+  "theme_color": "#1e40af",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/BrandAssets/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/BrandAssets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "travel",
+    "lifestyle",
+    "food"
+  ],
+  "lang": "en-US",
+  "dir": "ltr"
+}
