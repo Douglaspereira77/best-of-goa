@@ -1,0 +1,98 @@
+﻿import { NextRequest, NextResponse } from 'next/server';
+
+/**
+ * POST /api/admin/search-places
+ *
+ * Searches Google Places API for restaurants based on query string
+ * Used in admin panel to find restaurants to add to the directory
+ */
+export async function POST(request: NextRequest) {
+  try {
+    const { query } = await request.json();
+
+    if (!query || typeof query !== 'string' || query.trim().length === 0) {
+      return NextResponse.json(
+        { error: 'Query parameter is required' },
+        { status: 400 }
+      );
+    }
+
+    const apiKey = process.env.GOOGLE_PLACES_API_KEY;
+
+    if (!apiKey) {
+      console.error('GOOGLE_PLACES_API_KEY is not configured');
+      return NextResponse.json(
+        { error: 'Google Places API is not configured' },
+        { status: 500 }
+      );
+    }
+
+    // Using Google Places API (New) - Text Search
+    // https://developers.google.com/maps/documentation/places/web-service/text-search
+    const searchUrl = new URL('https://maps.googleapis.com/maps/api/place/textsearch/json');
+    searchUrl.searchParams.append('query', query);
+    searchUrl.searchParams.append('key', apiKey);
+    searchUrl.searchParams.append('region', 'kw'); // Bias results to Goa
+    searchUrl.searchParams.append('type', 'restaurant'); // Filter to restaurants only
+
+    const response = await fetch(searchUrl.toString());
+
+    if (!response.ok) {
+      console.error('Google Places API error:', response.status, response.statusText);
+      return NextResponse.json(
+        { error: 'Failed to search Google Places' },
+        { status: response.status }
+      );
+    }
+
+    const data = await response.json();
+
+    if (data.status !== 'OK' && data.status !== 'ZERO_RESULTS') {
+      console.error('Google Places API returned error:', data.status, data.error_message);
+      return NextResponse.json(
+        { error: data.error_message || 'Google Places API error', status: data.status },
+        { status: 400 }
+      );
+    }
+
+    // Transform results to our format
+    const results = (data.results || []).map((place: any) => ({
+      place_id: place.place_id,
+      name: place.name,
+      formatted_address: place.formatted_address,
+      rating: place.rating || null,
+      user_ratings_total: place.user_ratings_total || 0,
+      price_level: place.price_level || null,
+      types: place.types || [],
+      geometry: {
+        location: {
+          lat: place.geometry?.location?.lat || null,
+          lng: place.geometry?.location?.lng || null
+        }
+      },
+      photos: place.photos?.slice(0, 1).map((photo: any) => ({
+        photo_reference: photo.photo_reference,
+        width: photo.width,
+        height: photo.height,
+        // Generate photo URL
+        url: `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=${photo.photo_reference}&key=${apiKey}`
+      })) || [],
+      business_status: place.business_status || null,
+      opening_hours: place.opening_hours || null
+    }));
+
+    return NextResponse.json({
+      success: true,
+      count: results.length,
+      results,
+      query: query
+    });
+
+  } catch (error) {
+    console.error('Search places error:', error);
+    return NextResponse.json(
+      { error: 'Internal server error' },
+      { status: 500 }
+    );
+  }
+}
